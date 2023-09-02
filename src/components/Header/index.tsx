@@ -10,22 +10,23 @@ import { Button } from "../_Primitives/Button";
 
 function Header() {
   const [isIconHovering, setIsIconHovering] = useState(false);
+  const windowWidth = window.innerWidth;
 
   return (
     <Popover
       className={
-        "fixed top-0 z-50 mx-auto flex h-[90px] items-center bg-brand-primary-blue transition-all duration-500"
+        "fixed top-0 z-50 mx-auto flex items-center bg-brand-primary-blue transition-all duration-500"
       }
     >
-      <header className="mx-auto w-screen px-10 lg:px-24">
-        <div className="mx-auto flex items-center justify-between py-6">
+      <header className="mx-auto w-screen px-6 lg:px-24">
+        <div className="mx-auto flex items-center justify-between py-[17px]">
           <div className="flex justify-start lg:w-0 lg:flex-1">
             <Link href={"/"}>
               <Image
                 id="logo-image"
                 src={deepdiveLogoSVG}
                 alt="Deepdive logo"
-                width={180}
+                width={windowWidth > 640 ? 180 : 130}
                 height={48}
                 className="cursor-pointer"
               />
@@ -39,7 +40,7 @@ function Header() {
               onMouseLeave={() => setIsIconHovering(false)}
             >
               <List
-                size={32}
+                size={24}
                 color={
                   isIconHovering
                     ? "rgba(255, 255, 255, 0.8)"
@@ -74,44 +75,43 @@ function Header() {
       >
         <Popover.Panel
           focus
-          className="absolute inset-x-0 top-0 origin-top-right transform rounded-b-xl bg-black bg-opacity-30 p-0 backdrop-blur-md transition lg:hidden"
+          className="absolute inset-x-0 top-0 h-screen origin-top-right transform rounded-b-xl bg-transparent p-0 transition lg:hidden"
         >
-          <div className="bg-background divide-y-2 divide-gray-50 rounded-xl shadow-lg ring-1 ring-black ring-opacity-5">
-            <div className="px-7 py-8">
-              <div className="flex items-center justify-end">
-                <div className="">
-                  <Popover.Button
-                    id="close-menu-button"
-                    className="focus:ring-offset-background focus:primary-blue-500 hover:bg-primary-blue-500 flex items-center rounded-xl px-2 py-2 transition-all focus:outline-none focus:ring-2 focus:ring-offset-2"
-                    onMouseEnter={() => setIsIconHovering(true)}
-                    onMouseLeave={() => setIsIconHovering(false)}
-                  >
-                    <X
-                      size={32}
-                      color={"#FFFFFF"}
-                      weight="bold"
-                      aria-hidden="true"
-                    />
-                  </Popover.Button>
-                </div>
-              </div>
-              <nav className="mt-6 flex flex-col items-end gap-y-3">
-                {/* {links.map((link) => (
-                  <Link href={link.href} key={link.href}>
-                    <span
-                      className={twMerge(
-                        "cursor-pointer font-sans text-lg font-semibold text-white transition-all duration-500",
-                        pathname === link.href && "text-primary-blue-500",
-                      )}
-                    >
-                      {link.label}
-                    </span>
-                    {link.icon}
-                  </Link>
-                ))} */}
-              </nav>
+          <div className="mx-auto flex items-center justify-end px-6 py-5">
+            <div className="-my-2 -mr-2 lg:hidden">
+              <Popover.Button
+                id="close-menu-button"
+                className="focus:ring-offset-background focus:primary-blue-500 hover:bg-primary-blue-500 flex items-center rounded-xl bg-brand-primary-blue px-2 py-2 transition-all focus:outline-none focus:ring-2 focus:ring-offset-2"
+                onMouseEnter={() => setIsIconHovering(true)}
+                onMouseLeave={() => setIsIconHovering(false)}
+              >
+                <X
+                  size={24}
+                  color={"#FFFFFF"}
+                  weight="bold"
+                  aria-hidden="true"
+                />
+              </Popover.Button>
             </div>
           </div>
+          <nav className="flex h-full flex-col items-center justify-center bg-brand-primary-blue">
+            <div className="flex grow-[5] items-center justify-center">
+              <Link
+                href={"/"}
+                className="font-sans text-[22px] font-normal transition-all hover:opacity-80"
+              >
+                Benefício pela empresa
+              </Link>
+            </div>
+            <Link
+              href={"/"}
+              className="mx-auto flex flex-grow items-start justify-center"
+            >
+              <Button className="max-w-[234px]">
+                Testar Agora Gratuitamente
+              </Button>
+            </Link>
+          </nav>
         </Popover.Panel>
       </Transition>
     </Popover>
