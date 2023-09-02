@@ -14,17 +14,17 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #FF914D;
+  background-color: #ff914d;
   border-radius: 8px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #25313D;
+  background: #25313d;
   border-radius: 8px;
 }
 
 ::selection {
-  background: #FF914D;
+  background: #ff914d;
   color: #fff;
 }
 
@@ -34,12 +34,12 @@ body {
   }
 
   ::-webkit-scrollbar-thumb {
-    background-color: #FF914D;
+    background-color: #ff914d;
     border-radius: 0px;
   }
 
   ::-webkit-scrollbar-track {
-    background: #25313D;
+    background: #25313d;
     border-radius: 0px;
   }
 }
