@@ -7,12 +7,12 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { Controller, useForm } from "react-hook-form";
 import { z } from "zod";
 
-export const testFormSchema = z.object({
+const testFormSchema = z.object({
   name: z.string().nonempty("Campo obrigatório"),
   email: z.string().email("Email inválido"),
 });
 
-export type TestFormSchema = z.infer<typeof testFormSchema>;
+type TestFormSchema = z.infer<typeof testFormSchema>;
 
 export default function Home() {
   const { control } = useForm<TestFormSchema>({
