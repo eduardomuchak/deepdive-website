@@ -27,8 +27,8 @@ function Header() {
                 src={deepdiveLogoSVG}
                 alt="Deepdive logo"
                 width={windowWidth > 640 ? 180 : 130}
-                height={48}
                 className="cursor-pointer"
+                priority
               />
             </Link>
           </div>
