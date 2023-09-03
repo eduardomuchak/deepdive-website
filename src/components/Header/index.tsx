@@ -1,6 +1,7 @@
 "use client";
 
 import { Popover, Transition } from "@headlessui/react";
+import { useWindowSize } from "@react-hookz/web";
 import Image from "next/image";
 import Link from "next/link";
 import { List, X } from "phosphor-react";
@@ -10,7 +11,7 @@ import { Button } from "../_Primitives/Button";
 
 function Header() {
   const [isIconHovering, setIsIconHovering] = useState(false);
-  const windowWidth = window.innerWidth;
+  const { width: windowWidth } = useWindowSize();
 
   return (
     <Popover
