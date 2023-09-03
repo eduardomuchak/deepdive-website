@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
-import Header from "@/components/Header";
+import { Header } from "@/components/Header";
 import { Raleway, Roboto } from "next/font/google";
 
 const raleway = Raleway({
@@ -22,6 +22,7 @@ const roboto = Roboto({
 
 export const metadata: Metadata = {
   title: "Deepdive School",
+  description: "A Evolução do Inglês para Profissionais Globais",
 };
 
 export default function RootLayout({

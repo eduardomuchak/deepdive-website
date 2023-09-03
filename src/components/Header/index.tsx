@@ -9,7 +9,7 @@ import { Fragment, useState } from "react";
 import deepdiveLogoSVG from "../../assets/brand/deepdive-logo-white.svg";
 import { Button } from "../_Primitives/Button";
 
-function Header() {
+export function Header() {
   const [isIconHovering, setIsIconHovering] = useState(false);
   const { width: windowWidth } = useWindowSize();
 
@@ -123,5 +123,3 @@ function Header() {
     </Popover>
   );
 }
-
-export default Header;
