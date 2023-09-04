@@ -1,3 +1,5 @@
+"use client";
+
 export default function Refund() {
   return (
     <div className="flex h-screen w-screen flex-col items-center justify-center gap-5">

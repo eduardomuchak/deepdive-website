@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
+import Footer from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { Raleway, Roboto } from "next/font/google";
 
@@ -33,10 +34,11 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <body
-        className={`${raleway.variable} ${roboto.variable} flex w-full flex-1 bg-brand-primary-blue text-white`}
+        className={`${raleway.variable} ${roboto.variable} flex w-full flex-1 flex-col bg-brand-primary-blue text-white`}
       >
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );

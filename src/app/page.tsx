@@ -25,34 +25,30 @@ export default function Home() {
   });
 
   return (
-    <>
-      <div className="flex h-screen w-screen flex-col items-center justify-center gap-5">
-        <h1 className="font-sans text-3xl font-bold ">Roboto</h1>
-        <h1 className="font-alt text-3xl font-bold">Railway</h1>
-        <Link
-          rel="noopener noreferrer"
-          href={"https://deepdiveschool.rds.land/diagnostico"}
-          target="_blank"
-        >
-          <Button className="max-w-[234px]">Testar Agora Gratuitamente</Button>
-        </Link>
+    <div className="flex h-screen flex-col items-center justify-center gap-5">
+      <h1 className="font-sans text-3xl font-bold ">Roboto</h1>
+      <h1 className="font-alt text-3xl font-bold">Railway</h1>
+      <Link
+        rel="noopener noreferrer"
+        href={"https://deepdiveschool.rds.land/diagnostico"}
+        target="_blank"
+      >
+        <Button className="max-w-[234px]">Testar Agora Gratuitamente</Button>
+      </Link>
 
-        <div className="w-full max-w-[400px] space-y-10 self-center">
-          <Controller
-            control={control}
-            name="name"
-            render={({ field }) => <Input label="Nome" id="name" {...field} />}
-          />
-          <ErrorMessage>Teste</ErrorMessage>
-          <Controller
-            control={control}
-            name="email"
-            render={({ field }) => (
-              <Input label="Email" id="email" {...field} />
-            )}
-          />
-        </div>
+      <div className="w-full max-w-[400px] space-y-10 self-center">
+        <Controller
+          control={control}
+          name="name"
+          render={({ field }) => <Input label="Nome" id="name" {...field} />}
+        />
+        <ErrorMessage>Teste</ErrorMessage>
+        <Controller
+          control={control}
+          name="email"
+          render={({ field }) => <Input label="Email" id="email" {...field} />}
+        />
       </div>
-    </>
+    </div>
   );
 }
