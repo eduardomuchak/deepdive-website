@@ -13,8 +13,8 @@ export function InputLabelBackground({
       id={`${id}-labelBackground`}
       className={twMerge(
         "absolute left-5 z-10 h-1 transform transition-all duration-300",
-        isActive && "translate-y-[-2px] bg-brand-primary-blue",
-        isInputFilled && "translate-y-[-2px] bg-brand-primary-blue",
+        isActive && "translate-y-[-2px] bg-brand-secondary-blue",
+        isInputFilled && "translate-y-[-2px] bg-brand-secondary-blue",
       )}
     />
   );

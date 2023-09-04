@@ -17,8 +17,10 @@ export const Input = forwardRef(
         const labelBackground = document.getElementById(
           `${id}-labelBackground`,
         );
+
         if (labelBackground) {
-          labelBackground.style.width = `${labelWidth}px`;
+          const finalWidth = labelWidth - (labelWidth * 20) / 100;
+          labelBackground.style.width = `${finalWidth}px`;
         }
       }
     }, [labelRef, label]);
