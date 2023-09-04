@@ -4,6 +4,7 @@ import { ErrorMessage } from "@/components/ErrorMessage";
 import { Button } from "@/components/_Primitives/Button";
 import { Input } from "@/components/_Primitives/Input";
 import { zodResolver } from "@hookform/resolvers/zod";
+import Link from "next/link";
 import { Controller, useForm } from "react-hook-form";
 import { z } from "zod";
 
@@ -28,7 +29,14 @@ export default function Home() {
       <div className="flex h-screen w-screen flex-col items-center justify-center gap-5">
         <h1 className="font-sans text-3xl font-bold ">Roboto</h1>
         <h1 className="font-alt text-3xl font-bold">Railway</h1>
-        <Button className="max-w-[234px]">Testar Agora Gratuitamente</Button>
+        <Link
+          rel="noopener noreferrer"
+          href={"https://deepdiveschool.rds.land/diagnostico"}
+          target="_blank"
+        >
+          <Button className="max-w-[234px]">Testar Agora Gratuitamente</Button>
+        </Link>
+
         <div className="w-full max-w-[400px] space-y-10 self-center">
           <Controller
             control={control}

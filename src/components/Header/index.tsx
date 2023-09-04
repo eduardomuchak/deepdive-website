@@ -53,12 +53,16 @@ export function Header() {
           </Popover.Button>
 
           <nav className="hidden items-center space-x-10 lg:flex">
-            <Link href={"/"}>
+            <Link href={"/refund"}>
               <span className="font-sans text-sm font-medium transition-all hover:opacity-80">
                 Benefício pela empresa
               </span>
             </Link>
-            <Link href={"/"}>
+            <Link
+              rel="noopener noreferrer"
+              href={"https://deepdiveschool.rds.land/diagnostico"}
+              target="_blank"
+            >
               <Button className="rounded-lg">Testar Agora Gratuitamente</Button>
             </Link>
           </nav>
@@ -103,14 +107,16 @@ export function Header() {
           <nav className="flex h-full flex-col items-center justify-center bg-brand-primary-blue">
             <div className="flex grow-[5] items-center justify-center">
               <Link
-                href={"/"}
+                href={"/refund"}
                 className="font-sans text-[22px] font-normal transition-all hover:opacity-80"
               >
                 Benefício pela empresa
               </Link>
             </div>
             <Link
-              href={"/"}
+              rel="noopener noreferrer"
+              href={"https://deepdiveschool.rds.land/diagnostico"}
+              target="_blank"
               className="mx-auto flex flex-grow items-start justify-center"
             >
               <Button className="max-w-[234px]">
