@@ -3,6 +3,7 @@ import "./globals.css";
 
 import Footer from "@/components/Footer";
 import { Header } from "@/components/Header";
+import { ScheduleClassButton } from "@/components/ScheduleClassButton";
 import { Raleway, Roboto } from "next/font/google";
 
 const raleway = Raleway({
@@ -39,6 +40,7 @@ export default function RootLayout({
         <Header />
         {children}
         <Footer />
+        <ScheduleClassButton />
       </body>
     </html>
   );

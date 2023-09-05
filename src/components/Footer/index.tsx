@@ -12,7 +12,7 @@ function Footer() {
   const isMobile = width < 834;
 
   return (
-    <footer className="mx-auto w-full px-6 pb-[84px] lg:px-24 lg:pb-0">
+    <footer className="mx-auto w-full px-6 py-5 lg:px-24 lg:pb-0">
       {!isMobile ? (
         <div className="mx-auto grid min-h-[120px] w-full grid-flow-row grid-cols-1 sm:grid-cols-4">
           <div className="flex items-center justify-center">
@@ -59,18 +59,30 @@ function Footer() {
             </ul>
           </div>
           <div className="flex items-center justify-center space-x-4">
-            <Image
-              src={linkedInLogo}
-              alt="Deepdive logo"
-              width={30}
-              className="cursor-pointer"
-            />
-            <Image
-              src={instagramLogo}
-              alt="Deepdive logo"
-              width={30}
-              className="cursor-pointer"
-            />
+            <Link
+              rel="noopener noreferrer"
+              target="_blank"
+              href={"https://www.linkedin.com/company/deepdive-school"}
+            >
+              <Image
+                src={linkedInLogo}
+                alt="Deepdive logo"
+                width={30}
+                className="cursor-pointer"
+              />
+            </Link>
+            <Link
+              rel="noopener noreferrer"
+              target="_blank"
+              href={"https://www.instagram.com/deepdive-school"}
+            >
+              <Image
+                src={instagramLogo}
+                alt="Deepdive logo"
+                width={30}
+                className="cursor-pointer"
+              />
+            </Link>
           </div>
         </div>
       ) : (
@@ -88,18 +100,30 @@ function Footer() {
               </Link>
             </div>
             <div className="flex items-center justify-center space-x-4">
-              <Image
-                src={linkedInLogo}
-                alt="Deepdive logo"
-                width={30}
-                className="cursor-pointer"
-              />
-              <Image
-                src={instagramLogo}
-                alt="Deepdive logo"
-                width={30}
-                className="cursor-pointer"
-              />
+              <Link
+                rel="noopener noreferrer"
+                target="_blank"
+                href={"https://www.linkedin.com/company/deepdive-school"}
+              >
+                <Image
+                  src={linkedInLogo}
+                  alt="Deepdive logo"
+                  width={30}
+                  className="cursor-pointer"
+                />
+              </Link>
+              <Link
+                rel="noopener noreferrer"
+                target="_blank"
+                href={"https://www.instagram.com/deepdive-school"}
+              >
+                <Image
+                  src={instagramLogo}
+                  alt="Deepdive logo"
+                  width={30}
+                  className="cursor-pointer"
+                />
+              </Link>
             </div>
           </div>
           <ul className="mt-6 flex flex-col space-y-2">
