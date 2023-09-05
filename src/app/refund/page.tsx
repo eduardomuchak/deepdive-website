@@ -3,13 +3,52 @@
 import refundImage from "@/assets/images/refund.png";
 import { ActionCard } from "@/components/ActionCard";
 import { ActionCardText } from "@/components/ActionCard/Action";
+import { DeepdiveProgram } from "@/components/DeepdiveProgram";
 import Image from "next/image";
 import Link from "next/link";
-import { DownloadSimple, FileText } from "phosphor-react";
+import { Check, DownloadSimple, FileText } from "phosphor-react";
+
+const deepDiveProgram = [
+  {
+    id: 1,
+    title: "Desenvolvimento de líderes globais",
+    content:
+      "Ao reembolsar o programa Deepdive, a empresa está investindo no desenvolvimento de seus líderes, capacitando-os com habilidades de comunicação em inglês, visão de negócios global e capacidade de liderança eficaz em um contexto internacional. Líderes mais habilidosos impulsionam a inovação, o desempenho da equipe e o crescimento da empresa como um todo.",
+  },
+  {
+    id: 2,
+    title: "Alinhamento com objetivos empresariais",
+    content:
+      "A Deepdive oferece programas personalizados, que podem ser adaptados aos objetivos específicos de cada líder e às necessidades da empresa. Ao reembolsar o programa, a empresa está demonstrando seu compromisso em alinhar o desenvolvimento de seus líderes com os objetivos estratégicos e o crescimento do negócio.",
+  },
+  {
+    id: 3,
+    title: "Experiências e insights internacionais",
+    content:
+      "A Deepdive oferece a oportunidade de vivenciar imersões globais, aprimorando não só suas habilidades de comunicação em inglês, mas também na visão de negócios. Ao reembolsar o programa, a empresa está investindo no enriquecimento profissional de seus líderes, que trarão novas perspectivas e insights para a empresa.",
+  },
+];
+
+const actions = [
+  {
+    id: 1,
+    title: "Baixe Modelo de Solicitação de Reembolso",
+    link: "https://docs.google.com/document/d/1s07tWfwSEaq0kBIk478dONSKr7zMjsDOrJTTFoa6IEw/edit?usp=sharing",
+    linkText: "Baixar",
+    icon: DownloadSimple,
+  },
+  {
+    id: 2,
+    title: "Solicite seu Report de Assiduidade e Evolução",
+    link: "https://docs.google.com/document/d/1s07tWfwSEaq0kBIk478dONSKr7zMjsDOrJTTFoa6IEw/edit?usp=sharing",
+    linkText: "Solicitar",
+    icon: FileText,
+  },
+];
 
 export default function Refund() {
   return (
-    <main className="relative mx-auto mt-[90px] w-full max-w-6xl px-2 md:px-5">
+    <main className="relative mx-auto mt-[90px] w-full max-w-6xl px-4 md:px-5">
       <div className="flex w-full flex-row flex-wrap items-center justify-between  px-2 md:flex-nowrap">
         <div className="flex w-fit max-w-[508px] flex-col space-y-10">
           <h1 className="font-alt text-[40px] font-normal leading-tight tracking-tight text-white">
@@ -31,45 +70,48 @@ export default function Refund() {
         />
       </div>
 
-      <div className="mx-auto flex w-full flex-col items-center justify-center space-y-10">
-        <h2 className="mt-20 font-alt text-[32px] font-bold leading-tight tracking-tight text-white">
+      <div className="mx-auto flex w-full flex-col items-center justify-center">
+        <h2 className="mb-6 mt-[60px] font-alt text-[28px] font-bold leading-tight tracking-tight text-white md:mb-10 md:mt-[50px] md:text-[32px]">
           Saiba como pedir o benefício
         </h2>
-        <span className="max-w-[508px] text-center font-sans text-base font-normal leading-relaxed text-brand-gray">
+        <span className="mb-4 max-w-[508px] text-left font-sans text-base font-normal leading-relaxed text-brand-gray md:mb-10 md:text-center">
           Conte conosco para fornecer as informações necessárias para a
           solicitação do seu reembolso:
         </span>
-        <div className="mx-auto flex h-fit w-full max-w-[862px] flex-row justify-evenly space-x-6">
-          <ActionCard.Root>
-            <ActionCard.Icon icon={DownloadSimple} />
-            <ActionCard.ContentContainer>
-              <ActionCard.Title>
-                Baixe Modelo de Solicitação de Reembolso
-              </ActionCard.Title>
-              <Link
-                href="https://docs.google.com/document/d/1s07tWfwSEaq0kBIk478dONSKr7zMjsDOrJTTFoa6IEw/edit?usp=sharing"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <ActionCardText>Baixar</ActionCardText>
-              </Link>
-            </ActionCard.ContentContainer>
-          </ActionCard.Root>
-          <ActionCard.Root>
-            <ActionCard.Icon icon={FileText} />
-            <ActionCard.ContentContainer>
-              <ActionCard.Title>
-                Solicite seu Report de Assiduidade e Evolução
-              </ActionCard.Title>
-              <Link
-                href="https://docs.google.com/document/d/1s07tWfwSEaq0kBIk478dONSKr7zMjsDOrJTTFoa6IEw/edit?usp=sharing"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <ActionCardText>Solicitar</ActionCardText>
-              </Link>
-            </ActionCard.ContentContainer>
-          </ActionCard.Root>
+        <div className="mx-auto flex h-fit w-full max-w-[862px] flex-col justify-evenly gap-6 md:flex-row">
+          {actions.map((action) => (
+            <ActionCard.Root key={action.id}>
+              <ActionCard.Icon icon={action.icon} />
+              <ActionCard.ContentContainer>
+                <ActionCard.Title>{action.title}</ActionCard.Title>
+                <Link
+                  href={action.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <ActionCardText>{action.linkText}</ActionCardText>
+                </Link>
+              </ActionCard.ContentContainer>
+            </ActionCard.Root>
+          ))}
+        </div>
+        <div className="mb-6 mt-[60px] flex flex-col md:mt-[100px] md:flex-row md:gap-6">
+          <h2 className="mb-6 flex min-w-[330px] font-alt text-[28px] font-bold leading-tight tracking-tight text-white md:mb-10 md:text-[32px]">
+            Por que empresas devem reembolsar o Programa Deepdive?
+          </h2>
+          <div className="flex flex-col gap-4 md:gap-6">
+            {deepDiveProgram.map((item) => (
+              <DeepdiveProgram.Root key={item.id}>
+                <DeepdiveProgram.Icon icon={Check} />
+                <DeepdiveProgram.TextContainer>
+                  <DeepdiveProgram.Title>{item.title}</DeepdiveProgram.Title>
+                  <DeepdiveProgram.Content>
+                    {item.content}
+                  </DeepdiveProgram.Content>
+                </DeepdiveProgram.TextContainer>
+              </DeepdiveProgram.Root>
+            ))}
+          </div>
         </div>
       </div>
     </main>
