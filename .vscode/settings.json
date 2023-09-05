@@ -20,4 +20,5 @@
   },
   "breadcrumbs.enabled": true,
   "editor.parameterHints.enabled": true,
+  "conventionalCommits.scopes": ["wip"]
 }

@@ -1,3 +1,4 @@
+"use client";
 import { FormInputContainer } from "./InputContainer";
 import FormRoot from "./Root";
 import FormTitle from "./Title";

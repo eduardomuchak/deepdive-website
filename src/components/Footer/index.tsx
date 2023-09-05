@@ -12,7 +12,7 @@ function Footer() {
   const isMobile = width < 834;
 
   return (
-    <footer className="mx-auto w-screen px-6 pb-[84px] lg:px-24 lg:pb-0">
+    <footer className="mx-auto w-full px-6 pb-[84px] lg:px-24 lg:pb-0">
       {!isMobile ? (
         <div className="mx-auto grid min-h-[120px] w-full grid-flow-row grid-cols-1 sm:grid-cols-4">
           <div className="flex items-center justify-center">

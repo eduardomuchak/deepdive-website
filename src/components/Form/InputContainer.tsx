@@ -1,3 +1,5 @@
+"use client";
+
 interface InputContainerProps {
   children: React.ReactNode;
 }

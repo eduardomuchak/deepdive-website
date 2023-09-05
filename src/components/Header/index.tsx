@@ -11,15 +11,15 @@ import { Button } from "../_Primitives/Button";
 
 export function Header() {
   const [isIconHovering, setIsIconHovering] = useState(false);
-  const { width: windowWidth } = useWindowSize();
+  const { width } = useWindowSize();
 
   return (
     <Popover
       className={
-        "fixed top-0 z-50 mx-auto flex items-center bg-brand-primary-blue transition-all duration-500"
+        "fixed top-0 z-50 mx-auto flex w-full items-center bg-brand-primary-blue transition-all duration-500"
       }
     >
-      <header className="mx-auto w-screen px-6 lg:px-24">
+      <header className="mx-auto w-[98vw] px-6 lg:px-24">
         <div className="mx-auto flex items-center justify-between py-[17px]">
           <div className="flex justify-start lg:w-0 lg:flex-1">
             <Link href={"/"}>
@@ -27,9 +27,8 @@ export function Header() {
                 id="logo-image"
                 src={deepdiveLogoSVG}
                 alt="Deepdive logo"
-                width={windowWidth > 640 ? 180 : 130}
+                width={width > 640 ? 180 : 130}
                 className="cursor-pointer"
-                priority
               />
             </Link>
           </div>
