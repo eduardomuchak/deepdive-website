@@ -1,8 +1,8 @@
 "use client";
-
 import SecondaryHomeImage from "@/assets/images/Group 486.png";
 import HomeImage from "@/assets/images/home.png";
 import { DeepdiveProgram } from "@/components/DeepdiveProgram";
+import { JourneySection } from "@/components/JourneySection";
 import { Button } from "@/components/_Primitives/Button";
 import Image from "next/image";
 import Link from "next/link";
@@ -33,8 +33,8 @@ const whyChooseDeepdive = [
 export default function Home() {
   return (
     <>
-      <main className="relative mx-auto mt-[90px] w-full max-w-6xl px-4 md:px-5">
-        <div className="mt-8 flex flex-col justify-between md:mt-[60px] md:flex-row">
+      <main className="relative mx-auto mt-[90px] w-full">
+        <div className="mx-auto mt-8 flex max-w-6xl flex-col justify-between px-4 md:mt-[60px] md:flex-row md:px-5">
           <div className="flex w-full max-w-[417px] flex-col">
             <h1 className="mb-6 font-alt text-[45px] leading-tight tracking-tight md:mb-10 md:text-[40px]">
               A evolução do inglês <strong>para profissionais globais</strong>
@@ -59,7 +59,7 @@ export default function Home() {
             className="w-full md:max-w-[400px] lg:max-w-[512px]"
           />
         </div>
-        <div className="mt-[50px] flex flex-col-reverse justify-between gap-6 md:mt-[100px] md:flex-row">
+        <div className="mx-auto mt-[50px] flex max-w-6xl flex-col-reverse justify-between gap-6 px-4 md:mt-[100px] md:flex-row md:px-5">
           <Image
             src={SecondaryHomeImage}
             alt="Secondary image"
@@ -86,6 +86,7 @@ export default function Home() {
             ))}
           </div>
         </div>
+        <JourneySection />
       </main>
       <Background />
     </>
