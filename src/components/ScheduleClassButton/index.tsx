@@ -3,7 +3,7 @@ import { Button } from "../_Primitives/Button";
 
 export function ScheduleClassButton() {
   return (
-    <div className="sticky bottom-0 left-0 flex h-[84px] items-center justify-center bg-brand-primary-blue sm:hidden">
+    <div className="sticky bottom-0 left-0 z-50 flex h-[84px] items-center justify-center bg-brand-primary-blue sm:hidden">
       <Link
         rel="noopener noreferrer"
         href={"https://deepdiveschool.rds.land/diagnostico"}
