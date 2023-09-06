@@ -112,7 +112,7 @@ export function Header() {
                 Benefício pela empresa
               </Link>
             </div>
-            <Link
+            {/* <Link
               rel="noopener noreferrer"
               href={"https://deepdiveschool.rds.land/diagnostico"}
               target="_blank"
@@ -121,7 +121,7 @@ export function Header() {
               <Button className="max-w-[234px]">
                 Testar Agora Gratuitamente
               </Button>
-            </Link>
+            </Link> */}
           </nav>
         </Popover.Panel>
       </Transition>
