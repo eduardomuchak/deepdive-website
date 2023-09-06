@@ -4,6 +4,7 @@ import refundImage from "@/assets/images/refund.png";
 import { ActionCard } from "@/components/ActionCard";
 import { ActionCardText } from "@/components/ActionCard/Action";
 import { DeepdiveProgram } from "@/components/DeepdiveProgram";
+import { OrangeCard } from "@/components/OrangeCard";
 import Image from "next/image";
 import Link from "next/link";
 import { Check, DownloadSimple, FileText } from "phosphor-react";
@@ -114,6 +115,8 @@ export default function Refund() {
           </div>
         </div>
       </div>
+
+      <OrangeCard />
     </main>
   );
 }
