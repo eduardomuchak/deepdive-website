@@ -10,7 +10,7 @@ export function JourneyText({ children, showDivider }: Props) {
         {children}
       </span>
       {showDivider && (
-        <div className="absolute -bottom-[52px] right-[90px] block h-[50px] border-2 border-brand-gray md:hidden md:w-24" />
+        <div className="absolute -bottom-[56px] right-[90px] block h-[50px] border-2 border-brand-gray md:hidden md:w-24" />
       )}
     </div>
   );
