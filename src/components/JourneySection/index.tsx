@@ -41,19 +41,21 @@ const journey = [
 
 export function JourneySection() {
   return (
-    <div className="relative w-full bg-brand-secondary-blue px-4 pb-[320px] pt-[60px] md:px-5">
-      <div className="mx-auto flex w-full max-w-6xl flex-col items-center">
-        <h1 className="mb-10 text-center font-alt text-[32px] font-bold tracking-tight">
+    <div className="relative mt-[74px] w-full bg-brand-secondary-blue px-4 pb-[320px] pt-[60px] md:px-5">
+      <div className="z-10 mx-auto flex w-full max-w-6xl flex-col items-center">
+        <h1 className="z-10 mb-10 text-center font-alt text-[32px] font-bold tracking-tight">
           Sua jornada na Deepdive
         </h1>
-        <div className="flex w-full flex-row justify-between">
+        <div className="z-10 flex w-full flex-col items-center justify-between md:flex-row md:items-start">
           {journey.map((item) => (
             <Journey.Root key={item.id}>
               <Journey.Image image={item.image} />
               <Journey.Title showDivider={item.id !== journey.length}>
                 {item.title}
               </Journey.Title>
-              <Journey.Text>{item.text}</Journey.Text>
+              <Journey.Text showDivider={item.id !== journey.length}>
+                {item.text}
+              </Journey.Text>
             </Journey.Root>
           ))}
         </div>
