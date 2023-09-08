@@ -30,12 +30,12 @@ const jackieFunctions = [
 
 export function HomeOrangeCard() {
   return (
-    <div className="w-full px-4">
+    <div className="h-[507px] w-full px-4 md:h-[236px] lg:h-[224px]">
       <div className="relative mx-auto flex h-fit min-h-[442px] w-full max-w-[1040px] -translate-y-[40%] flex-col items-end justify-evenly overflow-hidden rounded-[28px] bg-brand-orange px-4 md:-translate-y-1/2 md:flex-row">
         <Image
           src={BackgroundLines}
           alt="Lines background"
-          className="inset-0 -z-0 hidden select-none bg-brand-orange bg-cover md:absolute md:flex md:h-full md:w-full"
+          className="inset-0 -z-0 hidden w-auto select-none bg-brand-orange bg-cover md:absolute md:flex md:h-full md:w-full"
         />
         <Image
           src={BackgroundLinesMobile}

@@ -67,7 +67,7 @@ export default function Refund() {
         <Image
           src={refundImage}
           alt="refund image"
-          className="md:max-w-[350px] lg:max-w-[482px]"
+          className="w-auto md:max-w-[350px] lg:max-w-[482px]"
         />
       </div>
 

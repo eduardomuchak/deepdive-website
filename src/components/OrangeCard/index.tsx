@@ -11,12 +11,12 @@ export function OrangeCard() {
       <Image
         src={BackgroundLines}
         alt="Lines background"
-        className="inset-0 -z-0 hidden select-none bg-brand-orange bg-cover md:absolute md:flex md:w-full"
+        className="inset-0 -z-0 hidden w-auto select-none bg-brand-orange bg-cover md:absolute md:flex md:w-full"
       />
       <Image
         src={BackgroundLinesMobile}
         alt="Lines background"
-        className="absolute inset-0 -z-0 w-full select-none bg-cover md:hidden"
+        className="absolute inset-0 -z-0 w-full select-none bg-cover md:hidden "
       />
       <div className="z-10 my-auto mt-6 flex flex-col md:mt-10">
         <h1 className="mb-6 w-full max-w-[480px] font-alt text-[32px] leading-tight tracking-tight text-brand-primary-blue md:mb-10 md:text-[40px]">

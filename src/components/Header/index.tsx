@@ -1,7 +1,6 @@
 "use client";
 
 import { Popover, Transition } from "@headlessui/react";
-import { useWindowSize } from "@react-hookz/web";
 import Image from "next/image";
 import Link from "next/link";
 import { List, X } from "phosphor-react";
@@ -11,7 +10,6 @@ import { Button } from "../_Primitives/Button";
 
 export function Header() {
   const [isIconHovering, setIsIconHovering] = useState(false);
-  const { width } = useWindowSize();
 
   return (
     <Popover
@@ -27,8 +25,7 @@ export function Header() {
                 id="logo-image"
                 src={deepdiveLogoSVG}
                 alt="Deepdive logo"
-                width={width > 640 ? 180 : 130}
-                className="cursor-pointer"
+                className="w-[130px] cursor-pointer md:w-[180px]"
               />
             </Link>
           </div>
