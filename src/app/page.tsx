@@ -2,6 +2,7 @@
 import SecondaryHomeImage from "@/assets/images/Group 486.png";
 import HomeImage from "@/assets/images/home.png";
 import { DeepdiveProgram } from "@/components/DeepdiveProgram";
+import { GlobalTrendsSection } from "@/components/GlobalTrendsSection";
 import { HomeOrangeCard } from "@/components/HomeOrangeCard";
 import { JourneySection } from "@/components/JourneySection";
 import { Button } from "@/components/_Primitives/Button";
@@ -89,6 +90,7 @@ export default function Home() {
         </div>
         <JourneySection />
         <HomeOrangeCard />
+        <GlobalTrendsSection />
       </main>
       <Background />
     </>
