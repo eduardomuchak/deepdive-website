@@ -11,14 +11,12 @@ export function OrangeCard() {
       <Image
         src={BackgroundLines}
         alt="Lines background"
-        className="inset-0 -z-0 hidden select-none bg-brand-orange md:absolute md:flex md:w-full"
-        objectFit="cover"
+        className="inset-0 -z-0 hidden select-none bg-brand-orange bg-cover md:absolute md:flex md:w-full"
       />
       <Image
         src={BackgroundLinesMobile}
         alt="Lines background"
-        className="absolute inset-0 -z-0 w-full select-none md:hidden"
-        objectFit="cover"
+        className="absolute inset-0 -z-0 w-full select-none bg-cover md:hidden"
       />
       <div className="z-10 my-auto mt-6 flex flex-col md:mt-10">
         <h1 className="mb-6 w-full max-w-[480px] font-alt text-[32px] leading-tight tracking-tight text-brand-primary-blue md:mb-10 md:text-[40px]">
@@ -42,8 +40,7 @@ export function OrangeCard() {
       <Image
         src={SmartphoneImage}
         alt="Smartphone Deepdive"
-        className="z-0 h-[309px] w-[193px] select-none self-center md:self-end"
-        objectFit="cover"
+        className="z-0 h-[309px] w-[193px] select-none self-center bg-cover md:self-end"
       />
     </div>
   );

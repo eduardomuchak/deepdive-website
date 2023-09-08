@@ -35,14 +35,12 @@ export function HomeOrangeCard() {
         <Image
           src={BackgroundLines}
           alt="Lines background"
-          className="inset-0 -z-0 hidden select-none bg-brand-orange md:absolute md:flex md:h-full md:w-full"
-          objectFit="cover"
+          className="inset-0 -z-0 hidden select-none bg-brand-orange bg-cover md:absolute md:flex md:h-full md:w-full"
         />
         <Image
           src={BackgroundLinesMobile}
           alt="Lines background"
-          className="absolute bottom-0 -z-0 w-full select-none md:hidden"
-          objectFit="cover"
+          className="absolute bottom-0 -z-0 w-full select-none bg-cover md:hidden"
         />
         <div className="z-10 my-auto mb-6 mt-6 flex flex-col md:mt-10">
           <h1 className="mb-5 w-full max-w-[500px] font-alt text-[32px] font-bold leading-tight tracking-tight text-brand-primary-blue md:mb-8 md:text-[40px]">
@@ -57,7 +55,7 @@ export function HomeOrangeCard() {
           </span>
 
           {jackieFunctions.map((item) => (
-            <DeepdiveProgram.Root className="mb-1">
+            <DeepdiveProgram.Root className="mb-1" key={item.id}>
               <DeepdiveProgram.Icon
                 icon={Check}
                 className="h-6 w-6 text-white"
@@ -72,8 +70,7 @@ export function HomeOrangeCard() {
         <Image
           src={SmartphoneImage}
           alt="Smartphone Deepdive"
-          className="z-0 h-[309px] w-[193px] select-none self-center md:h-[406px] md:w-[254px] md:self-end"
-          objectFit="cover"
+          className="z-0 h-[309px] w-[193px] select-none self-center bg-cover md:h-[406px] md:w-[254px] md:self-end"
         />
       </div>
     </div>
