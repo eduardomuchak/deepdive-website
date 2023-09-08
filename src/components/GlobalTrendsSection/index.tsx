@@ -46,9 +46,9 @@ const experiences = [
 
 export function GlobalTrendsSection() {
   return (
-    <div className="mx-auto mt-[60px] flex w-full max-w-6xl flex-col px-4 md:mt-[100px] md:flex-row">
+    <div className="mx-auto mt-[60px] flex w-full max-w-6xl flex-col px-4 md:mt-[100px] md:flex-row md:gap-4">
       <div className="flex flex-1 flex-col">
-        <h1 className="mb-6 font-alt text-[24px] font-bold tracking-tight md:mb-10 md:text-[32px]">
+        <h1 className="mb-6 font-alt text-[24px] font-bold tracking-tight md:mb-10 md:text-[28px] lg:text-[32px]">
           Global Trends Experiences
         </h1>
         <span className="mb-2 max-w-[419px]  font-sans text-base text-brand-gray md:mb-6">
