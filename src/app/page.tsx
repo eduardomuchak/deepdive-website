@@ -5,6 +5,7 @@ import { DeepdiveProgram } from "@/components/DeepdiveProgram";
 import { GlobalTrendsSection } from "@/components/GlobalTrendsSection";
 import { HomeOrangeCard } from "@/components/HomeOrangeCard";
 import { JourneySection } from "@/components/JourneySection";
+import { WhoWeAreSection } from "@/components/WhoWeAreSection";
 import { Button } from "@/components/_Primitives/Button";
 import Image from "next/image";
 import Link from "next/link";
@@ -91,6 +92,7 @@ export default function Home() {
         <JourneySection />
         <HomeOrangeCard />
         <GlobalTrendsSection />
+        <WhoWeAreSection />
       </main>
       <Background />
     </>
