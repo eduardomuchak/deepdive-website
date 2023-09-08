@@ -47,7 +47,7 @@ export default function Home() {
               rel="noopener noreferrer"
               href={"https://deepdiveschool.rds.land/diagnostico"}
               target="_blank"
-              className="hidden w-fit md:block"
+              className="z-10 hidden w-fit md:block"
             >
               <Button className="max-w-[234px]">
                 Testar Agora Gratuitamente
