@@ -72,12 +72,12 @@ export function SpecialistsCarousel({ info }: SpecialistsCarouselProps) {
             key={item.id}
             className="flex aspect-square min-h-[400px] items-center justify-center"
           >
-            <div className="relative flex flex-col items-center justify-center overflow-visible">
+            <div className="relative flex flex-col items-center justify-center">
               <Image
                 src={item.image}
                 alt={`Slide ${index + 1}`}
                 className={
-                  "mt-20 block aspect-square w-[230px] overflow-visible grayscale md:mt-12"
+                  "mt-20 block aspect-square w-[230px] grayscale md:mt-12"
                 }
               />
               {item.certification === "Delta Certified" && (

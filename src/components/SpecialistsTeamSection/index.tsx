@@ -64,7 +64,7 @@ const carouselInfo = [
 
 export function SpecialistsTeamSection() {
   return (
-    <div className="mx-auto mt-[130px] flex w-full max-w-6xl flex-col items-center justify-between">
+    <div className="mx-auto mt-[60px] flex w-full max-w-6xl flex-col items-center justify-between md:mt-[130px]">
       <h1 className="mb-10 text-center font-alt text-[32px] font-bold tracking-tight text-white">
         Time de Especialistas
       </h1>
