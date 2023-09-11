@@ -1,0 +1,15 @@
+.swiper-button-next {
+  color: #ff914d;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.swiper-button-prev {
+  color: #ff914d;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.swiper-slide {
+  transition: all 0.3s; /* Add a transition for smooth resizing */
+}
