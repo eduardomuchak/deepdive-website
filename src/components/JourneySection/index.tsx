@@ -41,7 +41,7 @@ const journey = [
 
 export function JourneySection() {
   return (
-    <div className="relative mt-[74px] w-full bg-brand-secondary-blue px-4 pb-[320px] pt-[60px] md:px-5">
+    <div className="relative mt-[74px] w-full overflow-hidden bg-brand-secondary-blue px-4 pb-[320px] pt-[60px] md:px-5">
       <div className="z-10 mx-auto flex w-full max-w-6xl flex-col items-center">
         <h1 className="z-10 mb-10 text-center font-alt text-[32px] font-bold tracking-tight">
           Sua jornada na Deepdive
