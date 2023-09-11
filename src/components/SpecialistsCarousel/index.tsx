@@ -70,14 +70,14 @@ export function SpecialistsCarousel({ info }: SpecialistsCarouselProps) {
         {info.map((item, index) => (
           <SwiperSlide
             key={item.id}
-            className="flex aspect-square min-h-[250px] items-center justify-center"
+            className="flex aspect-square min-h-[400px] items-center justify-center"
           >
-            <div className="relative overflow-visible">
+            <div className="relative flex flex-col items-center justify-center overflow-visible">
               <Image
                 src={item.image}
                 alt={`Slide ${index + 1}`}
                 className={
-                  "block aspect-square w-[230px] overflow-visible grayscale"
+                  "mt-20 block aspect-square w-[230px] overflow-visible grayscale md:mt-12"
                 }
               />
               {item.certification === "Delta Certified" && (
@@ -85,7 +85,7 @@ export function SpecialistsCarousel({ info }: SpecialistsCarouselProps) {
                   src={DeltaCertifiedSVG}
                   alt={`Delta Certified`}
                   className={
-                    "absolute bottom-0 right-0 z-50 aspect-square max-w-full"
+                    "absolute right-0 top-64 z-50 aspect-square max-w-full md:top-52"
                   }
                 />
               )}
@@ -94,10 +94,21 @@ export function SpecialistsCarousel({ info }: SpecialistsCarouselProps) {
                   src={CeltaCertifiedSVG}
                   alt={`Celta Certified`}
                   className={
-                    "absolute bottom-0 right-0 z-50 aspect-square max-w-full"
+                    "absolute right-0 top-64 z-50 aspect-square max-w-full md:top-52"
                   }
                 />
               )}
+              <div className="mt-12 flex flex-col items-center justify-center">
+                <span className="font-sans text-base font-medium text-white">
+                  {item.name}
+                </span>
+                <span className="mb-2 font-sans text-sm font-medium text-brand-gray">
+                  {item.role}
+                </span>
+                {/* <span className="font-sans text-base font-normal text-brand-gray">
+                  {item.description}
+                </span> */}
+              </div>
             </div>
           </SwiperSlide>
         ))}
