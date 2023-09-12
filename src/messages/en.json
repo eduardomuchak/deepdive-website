@@ -1,0 +1,54 @@
+{
+  "Home": {
+    "welcome": "The evolution of English",
+    "welcomeStrong": "for global professionals",
+    "speak": "Speak English with confidence and unlock your professional potential.",
+    "try": "Try Now for Free",
+    "whyDeepdive": "Why choose Deepdive?",
+    "personalizedLearningTitle": "Personalized learning",
+    "personalizedLearningText": "Achieve your goals quickly and consistently with customized programs designed just for you.",
+    "globalNetworkingTitle": "Global networking",
+    "globalNetworkingText": "Become part of an exclusive community of fully proficient top-level leaders. Expand your international network and build meaningful connections.",
+    "internationalExperiencesTitle": "International experiences",
+    "internationalExperiencesText": "Participate in immersive experiences in some of the world's leading business events, upgrading your English skills and gaining valuable insights for your business.",
+    "yourJourneyAtDeepdive": "Your journey at Deepdive",
+    "PersonalizationTitle": "Personalization",
+    "PersonalizationText": "Proficiency placement and goal setting",
+    "ExclusivityTitle": "Exclusivity",
+    "ExclusivityText": "Weekly private classes",
+    "ConsistencyTitle": "Consistency",
+    "ConsistencyText": "Daily practice with cutting-edge technology",
+    "InternationalNetworkingTitle": "International Networking",
+    "InternationalNetworkingText": "Online meet-ups with international leaders and experts",
+    "GlobalExperiencesTitle": "Global Experiences",
+    "GlobalExperiencesText": "Language immersion in international business events"
+  },
+  "Header": {
+    "try": "Try Now for Free",
+    "benefit": "Benefit by the company"
+  },
+  "HomeOrangeCard": {
+    "technology": "Cutting-edge technology to achieve your goal",
+    "technologyText1": "Would you like to practice speaking English every day, without fear, using customized content tailored to your objectives?",
+    "technologyText2": "Meet Jackie, the virtual extension of your private tutor that will accelerate your learning in a fully personalized and exclusive way:",
+    "function1": "Extension of private lessons",
+    "function2": "Conversations in a fear-free environment",
+    "function3": "Practice that fits into your routine",
+    "function4": "Customized content to reach your goals",
+    "function5": "Progress reports with tips for improvement"
+  },
+  "GlobalTrendsSection": {
+    "text": "We take you to the world's leading global trends events.",
+    "whyChoose1": "Exclusive trips for Deepdive leaders",
+    "whyChoose2": "Top world trends events",
+    "whyChoose3": "Visits to international companies",
+    "whyChoose4": "Work schedule moments",
+    "whyChoose5": "International networking",
+    "march": "Mar",
+    "june": "Jun",
+    "SXSWTitle": "SXSW - US",
+    "SXSW": "SXSW (South by Southwest) is an annual conglomerate of film, interactive media, and music festivals. It is a major destination for professionals from various fields and provides a platform for networking, learning, and discovering new trends and talents.",
+    "londonTechWeekTitle": "London Tech Week - ENG",
+    "londonTechWeek": "London Tech Week is an annual event that gathers technology enthusiasts, entrepreneurs, and professionals from around the world for conferences, workshops, and networking events centered around technology, innovation, and business."
+  }
+}

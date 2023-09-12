@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import { NextIntlClientProvider } from "next-intl";
+import { notFound } from "next/navigation";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -30,20 +32,30 @@ export const metadata: Metadata = {
   description: "A Evolução do Inglês para Profissionais Globais",
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
+  params: { locale },
 }: {
   children: React.ReactNode;
+  params: { locale: string };
 }) {
+  let messages;
+  try {
+    messages = (await import(`../../messages/${locale}.json`)).default;
+  } catch (error) {
+    notFound();
+  }
   return (
-    <html lang="pt-BR">
+    <html lang={locale}>
       <body
         className={`${raleway.variable} ${roboto.variable} flex w-full flex-1 flex-col bg-brand-primary-blue text-white`}
       >
-        <Header />
-        {children}
-        <Footer />
-        <ScheduleClassButton />
+        <NextIntlClientProvider locale={locale} messages={messages}>
+          <Header />
+          {children}
+          <Footer />
+          <ScheduleClassButton />
+        </NextIntlClientProvider>
       </body>
     </html>
   );

@@ -1,0 +1,52 @@
+{
+  "Home": {
+    "welcome": "A evolução do inglês",
+    "welcomeStrong": "para profissionais globais",
+    "speak": "Fale inglês com segurança e desbloqueie sua potência profissional.",
+    "try": "Testar Agora Gratuitamente",
+    "whyDeepdive": "Por que escolher a Deepdive?",
+    "personalizedLearningTitle": "Aprendizado personalizado",
+    "personalizedLearningText": "Chegue no seu objetivo de forma rápida, mas sem perder a consistência com programas personalizados para você.",
+    "globalNetworkingTitle": "Networking global",
+    "globalNetworkingText": "Faça parte de uma comunidade exclusiva de líderes de alto nível fluentes em inglês. Amplie sua rede internacional e crie conexões significativas.",
+    "internationalExperiencesTitle": "Experiências internacionais",
+    "internationalExperiencesText": "Participe de imersões nos principais eventos de negócios do mundo, enquanto aprimora seu inglês e ganha insights para seu negócio.",
+    "yourJourneyAtDeepdive": "Sua jornada na Deepdive",
+    "PersonalizationTitle": "Personalização",
+    "PersonalizationText": "Nivelamento e definição de objetivos",
+    "ExclusivityTitle": "Exclusividade",
+    "ExclusivityText": "Aulas semanais com professor particular",
+    "ConsistencyTitle": "Consistência",
+    "ConsistencyText": "Prática diária com tecnologia de ponta",
+    "InternationalNetworkingTitle": "Networking Internacional",
+    "InternationalNetworkingText": "Encontros online com líderes e especialistas internacionais",
+    "GlobalExperiencesTitle": "Experiência Global",
+    "GlobalExperiencesText": "Imersão em eventos internacionais de negócios"
+  },
+  "Header": {
+    "try": "Testar Agora Gratuitamente",
+    "benefit": "Benefício pela empresa"
+  },
+  "HomeOrangeCard": {
+    "technology": "Tecnologia de ponta para alcançar seu objetivo",
+    "technologyText1": "Já pensou em praticar conversação em inglês diariamente, sem medo e com conteúdo 100% direcionado ao seu objetivo?",
+    "technologyText2": "Conheça a Jackie, a extensão virtual do seu professor particular que irá acelerar seu aprendizado de forma totalmente personalizada e exclusiva:",
+    "function1": "Extensão das aulas particulares",
+    "function2": "Conversação sem medo",
+    "function3": "Práticas que cabem na sua rotina",
+    "function4": "Conteúdo personalizado para o seu objetivo",
+    "function5": "Report com dicas para sua evolução"
+  },
+  "GlobalTrendsSection": {
+    "text": "Levamos você para os principais eventos de tendências globais no mundo.",
+    "whyChoose1": "Viagens exclusivas para líderes Deepdive",
+    "whyChoose2": "Principais eventos de tendências do mundo",
+    "whyChoose3": "Visitas a empresas internacionais",
+    "whyChoose4": "Momentos para agendas de trabalho",
+    "whyChoose5": "Networking internacional",
+    "march": "Mar",
+    "june": "Jun",
+    "SXSW": "SXSW (South by Southwest) é um conglomerado anual de festivais de cinema, mídia interativa e música. É um destino importante para profissionais de vários campos e oferece uma plataforma para networking, aprendizado e descoberta de novas tendências e talentos.",
+    "londonTechWeek": "London Tech Week é um evento anual que reúne entusiastas de tecnologia, empreendedores e profissionais de todo o mundo para conferências, workshops e eventos de networking centrados em tecnologia, inovação e negócios."
+  }
+}

@@ -1,30 +1,29 @@
 import SecondaryHomeImage from "@/assets/images/Group 486.png";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { Check } from "phosphor-react";
 import { DeepdiveProgram } from "../DeepdiveProgram";
 
-const whyChooseDeepdive = [
-  {
-    id: 1,
-    title: "Aprendizado personalizado",
-    content:
-      "Chegue no seu objetivo de forma rápida, mas sem perder a consistência com programas personalizados para você.",
-  },
-  {
-    id: 2,
-    title: "Networking global",
-    content:
-      "Faça parte de uma comunidade exclusiva de líderes de alto nível fluentes em inglês. Amplie sua rede internacional e crie conexões significativas.",
-  },
-  {
-    id: 3,
-    title: "Experiências internacionais",
-    content:
-      "Participe de imersões nos principais eventos de negócios do mundo, enquanto aprimora seu inglês e ganha insights para seu negócio.",
-  },
-];
-
 export function WhyChooseDeepdiveSection() {
+  const t = useTranslations("Home");
+
+  const whyChooseDeepdive = [
+    {
+      id: 1,
+      title: `${t("personalizedLearningTitle")}`,
+      content: `${t("personalizedLearningText")}`,
+    },
+    {
+      id: 2,
+      title: `${t("globalNetworkingTitle")}`,
+      content: `${t("globalNetworkingText")}`,
+    },
+    {
+      id: 3,
+      title: `${t("internationalExperiencesTitle")}`,
+      content: `${t("internationalExperiencesText")}`,
+    },
+  ];
   return (
     <div className="mx-auto mt-[50px] flex max-w-6xl flex-col-reverse justify-between gap-6 px-4 md:mt-[100px] md:flex-row md:px-5">
       <Image
@@ -34,7 +33,7 @@ export function WhyChooseDeepdiveSection() {
       />
       <div className="flex max-w-[597px] flex-grow-2 flex-col">
         <h1 className="mb-6 text-center font-alt text-[32px] font-bold tracking-tight text-white md:mb-10 md:text-left">
-          Por que escolher a Deepdive?
+          {t("whyDeepdive")}
         </h1>
 
         {whyChooseDeepdive.map((item) => (

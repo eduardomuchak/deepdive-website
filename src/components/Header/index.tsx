@@ -1,6 +1,7 @@
 "use client";
 
 import { Popover, Transition } from "@headlessui/react";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 import Link from "next/link";
 import { List, X } from "phosphor-react";
@@ -9,6 +10,8 @@ import deepdiveLogoSVG from "../../assets/brand/deepdive-logo-white.svg";
 import { Button } from "../_Primitives/Button";
 
 export function Header() {
+  const t = useTranslations("Header");
+
   const [isIconHovering, setIsIconHovering] = useState(false);
 
   return (
@@ -51,7 +54,7 @@ export function Header() {
           <nav className="hidden items-center space-x-10 lg:flex">
             <Link href={"/refund"}>
               <span className="font-sans text-sm font-medium transition-all hover:opacity-80">
-                Benefício pela empresa
+                {t("benefit")}
               </span>
             </Link>
             <Link
@@ -59,7 +62,7 @@ export function Header() {
               href={"https://deepdiveschool.rds.land/diagnostico"}
               target="_blank"
             >
-              <Button className="rounded-lg">Testar Agora Gratuitamente</Button>
+              <Button className="rounded-lg">{t("try")}</Button>
             </Link>
           </nav>
         </div>
