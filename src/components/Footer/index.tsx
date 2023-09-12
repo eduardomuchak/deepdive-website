@@ -28,7 +28,7 @@ function Footer() {
             <li>
               <Link
                 className="font-sans text-sm font-normal transition-all hover:opacity-80"
-                href={"/beateacher"}
+                href={"/becomeateacher"}
               >
                 {t("beATeacher")}
               </Link>
@@ -40,7 +40,7 @@ function Footer() {
             <li>
               <Link
                 className="font-sans text-sm font-normal transition-all hover:opacity-80"
-                href={"/beateacher"}
+                href={"/becomeateacher"}
               >
                 {t("refund")}
               </Link>
@@ -48,7 +48,7 @@ function Footer() {
             <li>
               <Link
                 className="font-sans text-sm font-normal transition-all hover:opacity-80"
-                href={"/beateacher"}
+                href={"/becomeateacher"}
               >
                 {t("benefits")}
               </Link>
@@ -126,7 +126,7 @@ function Footer() {
           <li>
             <Link
               className="font-sans text-sm font-normal transition-all hover:opacity-80"
-              href={"/beateacher"}
+              href={"/becomeateacher"}
             >
               {t("beATeacher")}
             </Link>
@@ -134,7 +134,7 @@ function Footer() {
           <li>
             <Link
               className="font-sans text-sm font-normal transition-all hover:opacity-80"
-              href={"/beateacher"}
+              href={"/becomeateacher"}
             >
               {t("refund")}
             </Link>
@@ -142,7 +142,7 @@ function Footer() {
           <li>
             <Link
               className="font-sans text-sm font-normal transition-all hover:opacity-80"
-              href={"/beateacher"}
+              href={"/becomeateacher"}
             >
               {t("benefits")}
             </Link>

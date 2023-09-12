@@ -15,7 +15,7 @@ import Link from "next/link";
 import { Controller, useForm } from "react-hook-form";
 import Background from "./background";
 
-export default function BeATeacher() {
+export default function BecomeATeacher() {
   const t = useTranslations("BeATeacherPage");
 
   const {
