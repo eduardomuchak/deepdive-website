@@ -1,9 +1,8 @@
 import CintiaNogueira from "@/assets/images/specialists/CintiaNogueira.png";
 import TamaraSosa from "@/assets/images/specialists/TamaraSosa.png";
 import WilliamCosta from "@/assets/images/specialists/WillianCosta.png";
+import { useTranslations } from "next-intl";
 import { SpecialistsCarousel } from "../SpecialistsCarousel";
-
-const images = [WilliamCosta, CintiaNogueira, TamaraSosa];
 
 const carouselInfo = [
   {
@@ -63,19 +62,18 @@ const carouselInfo = [
 ];
 
 export function SpecialistsTeamSection() {
+  const t = useTranslations("SpecialistsTeamSection");
+
   return (
     <div className="mx-auto mt-[60px] flex w-full max-w-6xl flex-col items-center justify-between md:mt-[130px]">
       <h1 className="mb-10 text-center font-alt text-[32px] font-bold tracking-tight text-white">
-        Time de Especialistas
+        {t("team")}
       </h1>
       <span className="mb-2 max-w-[686px] text-center font-sans text-base font-normal text-brand-gray">
-        Na Deepdive, contamos com uma equipe altamente treinada e qualificada.
-        Valorizamos não apenas sua formação acadêmica, mas também sua
-        experiência prática, habilidades de comunicação, vicência internacional
-        e paixão pelo ensino.
+        {t("text")}
       </span>
       <span className="text-center font-sans text-base font-normal text-brand-gray">
-        Conheça nossa Equipe:
+        {t("meet")}
       </span>
       <div className="mx-auto flex w-full max-w-6xl">
         <SpecialistsCarousel info={carouselInfo} />

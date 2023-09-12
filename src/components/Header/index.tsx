@@ -109,7 +109,7 @@ export function Header() {
                 href={"/refund"}
                 className="font-sans text-[22px] font-normal transition-all hover:opacity-80"
               >
-                Benefício pela empresa
+                {t("benefit")}
               </Link>
             </div>
             {/* <Link

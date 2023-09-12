@@ -8,7 +8,7 @@ import { Journey } from "../Journey";
 import { Background } from "./background";
 
 export function JourneySection() {
-  const t = useTranslations("Home");
+  const t = useTranslations("JourneySection");
 
   const journey = [
     {

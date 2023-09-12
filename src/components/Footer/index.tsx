@@ -3,10 +3,13 @@
 import deepdiveLogoSVG from "@/assets/brand/deepdive-logo-white.svg";
 import instagramLogo from "@/assets/icons/instagram.svg";
 import linkedInLogo from "@/assets/icons/linkedin.svg";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 import Link from "next/link";
 
 function Footer() {
+  const t = useTranslations("Footer");
+
   return (
     <footer className="mx-auto w-full px-6 py-5 lg:px-24 lg:pb-0">
       <div className="mx-auto hidden min-h-[120px]  w-full grid-flow-row grid-cols-1 sm:grid-cols-4 md:grid">
@@ -27,7 +30,7 @@ function Footer() {
                 className="font-sans text-sm font-normal transition-all hover:opacity-80"
                 href={"/beateacher"}
               >
-                Seja professor da Deepdive
+                {t("beATeacher")}
               </Link>
             </li>
           </ul>
@@ -39,7 +42,7 @@ function Footer() {
                 className="font-sans text-sm font-normal transition-all hover:opacity-80"
                 href={"/beateacher"}
               >
-                Reembolso pela empresa
+                {t("refund")}
               </Link>
             </li>
             <li>
@@ -47,7 +50,7 @@ function Footer() {
                 className="font-sans text-sm font-normal transition-all hover:opacity-80"
                 href={"/beateacher"}
               >
-                Benefícios para grupos empresariais
+                {t("benefits")}
               </Link>
             </li>
           </ul>
@@ -125,7 +128,7 @@ function Footer() {
               className="font-sans text-sm font-normal transition-all hover:opacity-80"
               href={"/beateacher"}
             >
-              Seja professor da Deepdive
+              {t("beATeacher")}
             </Link>
           </li>
           <li>
@@ -133,7 +136,7 @@ function Footer() {
               className="font-sans text-sm font-normal transition-all hover:opacity-80"
               href={"/beateacher"}
             >
-              Reembolso pela empresa
+              {t("refund")}
             </Link>
           </li>
           <li>
@@ -141,7 +144,7 @@ function Footer() {
               className="font-sans text-sm font-normal transition-all hover:opacity-80"
               href={"/beateacher"}
             >
-              Benefícios para grupos empresariais
+              {t("benefits")}
             </Link>
           </li>
         </ul>

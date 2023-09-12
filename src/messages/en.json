@@ -1,16 +1,29 @@
 {
-  "Home": {
+  "Header": {
+    "try": "Try Now for Free",
+    "benefit": "Benefit by the company"
+  },
+  "Footer": {
+    "beATeacher": "Become a DeepDive Instructor",
+    "refund": "Company Reimbursement",
+    "benefits": "Benefits for Corporate Groups"
+  },
+  "CTASection": {
     "welcome": "The evolution of English",
     "welcomeStrong": "for global professionals",
     "speak": "Speak English with confidence and unlock your professional potential.",
-    "try": "Try Now for Free",
+    "try": "Try Now for Free"
+  },
+  "WhyChooseDeepdiveSection": {
     "whyDeepdive": "Why choose Deepdive?",
     "personalizedLearningTitle": "Personalized learning",
     "personalizedLearningText": "Achieve your goals quickly and consistently with customized programs designed just for you.",
     "globalNetworkingTitle": "Global networking",
     "globalNetworkingText": "Become part of an exclusive community of fully proficient top-level leaders. Expand your international network and build meaningful connections.",
     "internationalExperiencesTitle": "International experiences",
-    "internationalExperiencesText": "Participate in immersive experiences in some of the world's leading business events, upgrading your English skills and gaining valuable insights for your business.",
+    "internationalExperiencesText": "Participate in immersive experiences in some of the world's leading business events, upgrading your English skills and gaining valuable insights for your business."
+  },
+  "JourneySection": {
     "yourJourneyAtDeepdive": "Your journey at Deepdive",
     "PersonalizationTitle": "Personalization",
     "PersonalizationText": "Proficiency placement and goal setting",
@@ -23,10 +36,7 @@
     "GlobalExperiencesTitle": "Global Experiences",
     "GlobalExperiencesText": "Language immersion in international business events"
   },
-  "Header": {
-    "try": "Try Now for Free",
-    "benefit": "Benefit by the company"
-  },
+
   "HomeOrangeCard": {
     "technology": "Cutting-edge technology to achieve your goal",
     "technologyText1": "Would you like to practice speaking English every day, without fear, using customized content tailored to your objectives?",
@@ -50,5 +60,14 @@
     "SXSW": "SXSW (South by Southwest) is an annual conglomerate of film, interactive media, and music festivals. It is a major destination for professionals from various fields and provides a platform for networking, learning, and discovering new trends and talents.",
     "londonTechWeekTitle": "London Tech Week - ENG",
     "londonTechWeek": "London Tech Week is an annual event that gathers technology enthusiasts, entrepreneurs, and professionals from around the world for conferences, workshops, and networking events centered around technology, innovation, and business."
+  },
+  "SpecialistsTeamSection": {
+    "team": "Team of Experts",
+    "text": "At Deepdive, we have a team of highly trained and qualified professionals. We value not only their academic background but also their proven practical experience, communication skills, experiences abroad, and passion for teaching.",
+    "meet": "Meet Our Team:"
+  },
+  "WhoWeAreSection": {
+    "title": "Who We Are",
+    "text": "We were born in Brazil, with the mission to empower leaders to communicate confidently and independently in English, and to train confident global professionals who will build valuable connections worldwide."
   }
 }

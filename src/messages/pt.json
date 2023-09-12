@@ -1,16 +1,29 @@
 {
-  "Home": {
+  "Header": {
+    "try": "Testar Agora Gratuitamente",
+    "benefit": "Benefício pela empresa"
+  },
+  "Footer": {
+    "beATeacher": "Seja professor da Deepdive",
+    "refund": "Reembolso pela empresa",
+    "benefits": "Benefícios para grupos empresariais"
+  },
+  "CTASection": {
     "welcome": "A evolução do inglês",
     "welcomeStrong": "para profissionais globais",
     "speak": "Fale inglês com segurança e desbloqueie sua potência profissional.",
-    "try": "Testar Agora Gratuitamente",
+    "try": "Testar Agora Gratuitamente"
+  },
+  "WhyChooseDeepdiveSection": {
     "whyDeepdive": "Por que escolher a Deepdive?",
     "personalizedLearningTitle": "Aprendizado personalizado",
     "personalizedLearningText": "Chegue no seu objetivo de forma rápida, mas sem perder a consistência com programas personalizados para você.",
     "globalNetworkingTitle": "Networking global",
     "globalNetworkingText": "Faça parte de uma comunidade exclusiva de líderes de alto nível fluentes em inglês. Amplie sua rede internacional e crie conexões significativas.",
     "internationalExperiencesTitle": "Experiências internacionais",
-    "internationalExperiencesText": "Participe de imersões nos principais eventos de negócios do mundo, enquanto aprimora seu inglês e ganha insights para seu negócio.",
+    "internationalExperiencesText": "Participe de imersões nos principais eventos de negócios do mundo, enquanto aprimora seu inglês e ganha insights para seu negócio."
+  },
+  "JourneySection": {
     "yourJourneyAtDeepdive": "Sua jornada na Deepdive",
     "PersonalizationTitle": "Personalização",
     "PersonalizationText": "Nivelamento e definição de objetivos",
@@ -23,10 +36,7 @@
     "GlobalExperiencesTitle": "Experiência Global",
     "GlobalExperiencesText": "Imersão em eventos internacionais de negócios"
   },
-  "Header": {
-    "try": "Testar Agora Gratuitamente",
-    "benefit": "Benefício pela empresa"
-  },
+
   "HomeOrangeCard": {
     "technology": "Tecnologia de ponta para alcançar seu objetivo",
     "technologyText1": "Já pensou em praticar conversação em inglês diariamente, sem medo e com conteúdo 100% direcionado ao seu objetivo?",
@@ -46,7 +56,18 @@
     "whyChoose5": "Networking internacional",
     "march": "Mar",
     "june": "Jun",
+    "SXSWTitle": "SXSW - Austin, USA",
     "SXSW": "SXSW (South by Southwest) é um conglomerado anual de festivais de cinema, mídia interativa e música. É um destino importante para profissionais de vários campos e oferece uma plataforma para networking, aprendizado e descoberta de novas tendências e talentos.",
+    "londonTechWeekTitle": "London Tech Week - Londres, ING",
     "londonTechWeek": "London Tech Week é um evento anual que reúne entusiastas de tecnologia, empreendedores e profissionais de todo o mundo para conferências, workshops e eventos de networking centrados em tecnologia, inovação e negócios."
+  },
+  "SpecialistsTeamSection": {
+    "team": "Time de Especialistas",
+    "text": "Na Deepdive, contamos com uma equipe altamente treinada e qualificada. Valorizamos não apenas sua formação acadêmica, mas também sua experiência prática, habilidades de comunicação, vicência internacional e paixão pelo ensino.",
+    "meet": "Conheça nossa Equipe:"
+  },
+  "WhoWeAreSection": {
+    "title": "Quem somos",
+    "text": "Nascemos no mercado brasileiro com a missão de capacitar líderes a se comunicarem em inglês de forma segura e independente, formando profissionais globais confiantes que criam conexões valiosas ao redor do mundo."
   }
 }

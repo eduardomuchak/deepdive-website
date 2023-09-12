@@ -5,7 +5,7 @@ import { Check } from "phosphor-react";
 import { DeepdiveProgram } from "../DeepdiveProgram";
 
 export function WhyChooseDeepdiveSection() {
-  const t = useTranslations("Home");
+  const t = useTranslations("WhyChooseDeepdiveSection");
 
   const whyChooseDeepdive = [
     {

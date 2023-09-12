@@ -1,8 +1,10 @@
 import OrganicSVG from "@/assets/images/Organic.svg";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { Background } from "./background";
 
 export function WhoWeAreSection() {
+  const t = useTranslations("WhoWeAreSection");
   return (
     <div className="relative mt-[150px] flex min-h-[351px] w-full items-center justify-center bg-brand-secondary-blue py-6 md:mt-[100px]">
       <div className="z-10 flex w-full max-w-6xl flex-col items-center justify-between px-4 md:flex-row md:gap-10">
@@ -15,13 +17,10 @@ export function WhoWeAreSection() {
         </div>
         <div className="flex w-full max-w-[597px] -translate-y-5 flex-col gap-6 md:-translate-y-0 md:gap-10">
           <h1 className="text-center font-alt text-[32px] font-bold tracking-tight md:text-left">
-            Quem somos
+            {t("title")}
           </h1>
           <span className="text-center font-sans text-base font-normal text-brand-gray md:text-left">
-            Nascemos no mercado brasileiro com a missão de capacitar líderes a
-            se comunicarem em inglês de forma segura e independente, formando
-            profissionais globais confiantes que criam conexões valiosas ao
-            redor do mundo.
+            {t("text")}
           </span>
         </div>
       </div>

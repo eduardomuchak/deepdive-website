@@ -7,7 +7,7 @@ import Link from "next/link";
 import { Button } from "../_Primitives/Button";
 
 export function CTASection() {
-  const t = useTranslations("Home");
+  const t = useTranslations("CTASection");
 
   return (
     <div className="mx-auto mt-8 flex max-w-6xl flex-col justify-between px-4 md:mt-[60px] md:flex-row md:px-5">
