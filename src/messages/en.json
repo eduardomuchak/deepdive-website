@@ -89,5 +89,28 @@
     "requiredField": "Required field",
     "acceptTerms": "You must accept the terms and conditions",
     "invalidEmail": "Invalid email"
+  },
+  "RefundPage": {
+    "title1": "Your English boosts",
+    "title2": "your company's performance",
+    "text1": "Many of our participants ask their companies to reimburse their expenses in our programs, because the way you learn English at Deepdive will not only expand your ability to get outstanding results that drive personal growth but also improve the performance of any business you work for.",
+    "title3": "Learn how to request reimbursement",
+    "text2": "Count on us to provide the necessary information for your reimbursement request:",
+
+    "title4": "Why should companies reimburse participants in the Deepdive Program?",
+    "deepDiveProgramTitle1": "Development of global leaders",
+    "deepDiveProgramContent1": "By reimbursing their employees for the Deepdive Program, companies invest in the development of their leaders, empowering them with English communication skills, a global business perspective, and effective leadership capabilities in international contexts. Skilled leaders drive innovation, improve team performance, and promote overall company growth.",
+    "deepDiveProgramTitle2": "Alignment with business objectives",
+    "deepDiveProgramContent2": "Deepdive offers customized programs that can be tailored to each leader's specific goals and company needs. By reimbursing for the program, companies demonstrate their commitment to aligning the development of their leaders with their strategic objectives and business growth.",
+    "deepDiveProgramTitle3": "International experiences and insights",
+    "deepDiveProgramContent3": "Deepdive provides learners the opportunity to participate in global immersion experiences, sharpening not only their communication skills in English but also their business acumen. By reimbursing employees for the program, companies invest in the professional development of their leaders, who will bring new perspectives and insights into the company.",
+    "actions1": "Download Reimbursement Request Template",
+    "actions2": "Request Your Attendance and Progress Report",
+    "download": "Download",
+    "request": "Request",
+    "cardTitle1": "The evolution of English",
+    "cardTitle2": "for global professionals",
+    "cardText": "Speak English with confidence and unlock your professional potential.",
+    "cardButton": "Try Now for Free"
   }
 }

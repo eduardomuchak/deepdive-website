@@ -89,5 +89,27 @@
     "requiredField": "Campo obrigatorío",
     "acceptTerms": "Você precisa aceitar os termos e condições",
     "invalidEmail": "Email inválido"
+  },
+  "RefundPage": {
+    "title1": "Seu inglês potencializa os",
+    "title2": "resultados da sua empresa",
+    "text1": "Muitos de nossos participantes solicitam o reembolso dos nossos programas para suas empresas, porque a forma como você aprende inglês na Deepdive expandirá sua capacidade de produzir resultados que impulsionam não só o seu crescimento, mas também o do negócio em que você atua.",
+    "title3": "Saiba como pedir o benefício",
+    "text2": "Conte conosco para fornecer as informações necessárias para a solicitação do seu reembolso:",
+    "title4": "Por que empresas devem reembolsar o Programa Deepdive?",
+    "deepDiveProgramTitle1": "Desenvolvimento de líderes globais",
+    "deepDiveProgramContent1": "Ao reembolsar o programa Deepdive, a empresa está investindo no desenvolvimento de seus líderes, capacitando-os com habilidades de comunicação em inglês, visão de negócios global e capacidade de liderança eficaz em um contexto internacional. Líderes mais habilidosos impulsionam a inovação, o desempenho da equipe e o crescimento da empresa como um todo.",
+    "deepDiveProgramTitle2": "Alinhamento com objetivos empresariais",
+    "deepDiveProgramContent2": "A Deepdive oferece programas personalizados, que podem ser adaptados aos objetivos específicos de cada líder e às necessidades da empresa. Ao reembolsar o programa, a empresa está demonstrando seu compromisso em alinhar o desenvolvimento de seus líderes com os objetivos estratégicos e o crescimento do negócio.",
+    "deepDiveProgramTitle3": "Experiências e insights internacionais",
+    "deepDiveProgramContent3": "A Deepdive oferece a oportunidade de vivenciar imersões globais, aprimorando não só suas habilidades de comunicação em inglês, mas também na visão de negócios. Ao reembolsar o programa, a empresa está investindo no enriquecimento profissional de seus líderes, que trarão novas perspectivas e insights para a empresa.",
+    "actions1": "Baixe Modelo de Solicitação de Reembolso",
+    "actions2": "Solicite seu Report de Assiduidade e Evolução",
+    "download": "Baixar",
+    "request": "Solicitar",
+    "cardTitle1": "A evolução do inglês",
+    "cardTitle2": "para profissionais globais",
+    "cardText": "Speak English with confidence and unlock your professional potential.",
+    "cardButton": "Try Now for Free"
   }
 }
