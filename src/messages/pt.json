@@ -69,5 +69,25 @@
   "WhoWeAreSection": {
     "title": "Quem somos",
     "text": "Nascemos no mercado brasileiro com a missão de capacitar líderes a se comunicarem em inglês de forma segura e independente, formando profissionais globais confiantes que criam conexões valiosas ao redor do mundo."
+  },
+  "BeATeacherPage": {
+    "title1": "Faça Parte da Equipe de Professores da DeepDive e",
+    "title2": "Contribua com a Formação de Líderes Globais.",
+    "formTitle": "Cadastre suas informações ao nosso banco de currículos",
+    "formName": "Nome",
+    "formEmail": "Email",
+    "formPhone": "Telefone",
+    "formState": "Estado",
+    "formCity": "Cidade",
+    "formExperienceTime": "Tempo de experiência",
+    "formAlreadyLivedAbroad": "Já morou no exterior?",
+    "formCertifications": "Certificações",
+    "firstCheckbox": "Ao inscrever-se, você concorda com o processamento de seus dados pessoais pela DeepDive, conforme nossa ",
+    "privacy": "Declaração de Privacidade.",
+    "secondCheckbox": "Sim, aceito receber comunicações de marketing sobre produtos, serviços e eventos, podendo me descadastrar a qualquer momento.",
+    "registerButton": "Cadastrar",
+    "requiredField": "Campo obrigatorío",
+    "acceptTerms": "Você precisa aceitar os termos e condições",
+    "invalidEmail": "Email inválido"
   }
 }

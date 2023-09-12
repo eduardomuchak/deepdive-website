@@ -10,11 +10,14 @@ import {
   registerTeacherFormSchema,
 } from "@/validations/RegisterTeacher";
 import { zodResolver } from "@hookform/resolvers/zod";
+import { useTranslations } from "next-intl";
 import Link from "next/link";
 import { Controller, useForm } from "react-hook-form";
 import Background from "./background";
 
 export default function BeATeacher() {
+  const t = useTranslations("BeATeacherPage");
+
   const {
     control,
     handleSubmit,
@@ -44,50 +47,58 @@ export default function BeATeacher() {
       <main className="relative mx-auto w-full max-w-[726px] px-2">
         <div className="mb-[60px] mt-[152px] text-center">
           <span className="text-center font-alt text-[36px] font-normal leading-[52px] text-white md:text-[40px]">
-            Faça Parte da Equipe de Professores da DeepDive e{" "}
+            {t("title1")}
           </span>
           <strong className="text-center font-alt text-[40px] leading-[52px] text-white">
-            Contribua com a Formação de Líderes Globais.
+            {t("title2")}
           </strong>
         </div>
         <Form.Root className={"relative mb-24"}>
-          <Form.Title>
-            Cadastre suas informações ao nosso banco de currículos
-          </Form.Title>
+          <Form.Title>{t("formTitle")}</Form.Title>
           <Form.InputContainer>
             <div className="flex flex-col gap-1">
               <Controller
                 control={control}
                 name={"fullName"}
                 render={({ field }) => (
-                  <Input
-                    label={"Nome completo"}
-                    id={"Nome completo"}
-                    {...field}
-                  />
+                  <Input label={t("formName")} id={t("formName")} {...field} />
                 )}
               />
-              <ErrorMessage>{errors.fullName?.message}</ErrorMessage>
+              <ErrorMessage>
+                {errors.fullName?.message && t("requiredField")}
+              </ErrorMessage>
             </div>
             <div className="flex flex-col gap-1">
               <Controller
                 control={control}
                 name={"email"}
                 render={({ field }) => (
-                  <Input label={"Email"} id={"Email"} {...field} />
+                  <Input
+                    label={t("formEmail")}
+                    id={t("formEmail")}
+                    {...field}
+                  />
                 )}
               />
-              <ErrorMessage>{errors.email?.message}</ErrorMessage>
+              <ErrorMessage>
+                {errors.email?.message && t("invalidEmail")}
+              </ErrorMessage>
             </div>
             <div className="flex flex-col gap-1">
               <Controller
                 control={control}
                 name={"phone"}
                 render={({ field }) => (
-                  <Input label={"Telefone"} id={"Telefone"} {...field} />
+                  <Input
+                    label={t("formPhone")}
+                    id={t("formPhone")}
+                    {...field}
+                  />
                 )}
               />
-              <ErrorMessage>{errors.phone?.message}</ErrorMessage>
+              <ErrorMessage>
+                {errors.phone?.message && t("requiredField")}
+              </ErrorMessage>
             </div>
             <div className="flex w-full flex-row space-x-4">
               <div className="flex w-full flex-col gap-1">
@@ -95,20 +106,32 @@ export default function BeATeacher() {
                   control={control}
                   name={"state"}
                   render={({ field }) => (
-                    <Input label={"Estado"} id={"Estado"} {...field} />
+                    <Input
+                      label={t("formState")}
+                      id={t("formState")}
+                      {...field}
+                    />
                   )}
                 />
-                <ErrorMessage>{errors.state?.message}</ErrorMessage>
+                <ErrorMessage>
+                  {errors.state?.message && t("requiredField")}
+                </ErrorMessage>
               </div>
               <div className="flex w-full flex-col gap-1">
                 <Controller
                   control={control}
                   name={"city"}
                   render={({ field }) => (
-                    <Input label={"Cidade"} id={"Cidade"} {...field} />
+                    <Input
+                      label={t("formCity")}
+                      id={t("formCity")}
+                      {...field}
+                    />
                   )}
                 />
-                <ErrorMessage>{errors.city?.message}</ErrorMessage>
+                <ErrorMessage>
+                  {errors.city?.message && t("requiredField")}
+                </ErrorMessage>
               </div>
             </div>
             <div className="flex flex-col gap-1">
@@ -117,13 +140,15 @@ export default function BeATeacher() {
                 name={"experienceTime"}
                 render={({ field }) => (
                   <Input
-                    label={"Tempo de experiência"}
-                    id={"Tempo de experiência"}
+                    label={t("formExperienceTime")}
+                    id={t("formExperienceTime")}
                     {...field}
                   />
                 )}
               />
-              <ErrorMessage>{errors.experienceTime?.message}</ErrorMessage>
+              <ErrorMessage>
+                {errors.experienceTime?.message && t("requiredField")}
+              </ErrorMessage>
             </div>
             <div className="flex flex-col gap-1">
               <Controller
@@ -131,13 +156,15 @@ export default function BeATeacher() {
                 name={"alreadyLivedAbroad"}
                 render={({ field }) => (
                   <Input
-                    label={"Já morou no exterior?"}
-                    id={"Já morou no exterior?"}
+                    label={t("formAlreadyLivedAbroad")}
+                    id={t("formAlreadyLivedAbroad")}
                     {...field}
                   />
                 )}
               />
-              <ErrorMessage>{errors.alreadyLivedAbroad?.message}</ErrorMessage>
+              <ErrorMessage>
+                {errors.alreadyLivedAbroad?.message && t("requiredField")}
+              </ErrorMessage>
             </div>
             <div className="flex flex-col gap-1">
               <Controller
@@ -145,13 +172,15 @@ export default function BeATeacher() {
                 name={"certifications"}
                 render={({ field }) => (
                   <Input
-                    label={"Certificações"}
-                    id={"Certificações"}
+                    label={t("formCertifications")}
+                    id={t("formCertifications")}
                     {...field}
                   />
                 )}
               />
-              <ErrorMessage>{errors.certifications?.message}</ErrorMessage>
+              <ErrorMessage>
+                {errors.certifications?.message && t("requiredField")}
+              </ErrorMessage>
             </div>
           </Form.InputContainer>
           <div className="mt-3 flex flex-col space-y-3 px-4">
@@ -166,21 +195,20 @@ export default function BeATeacher() {
                   {...field}
                   value={String(field.value)}
                 >
-                  Ao inscrever-se, você concorda com o processamento de seus
-                  dados pessoais pela DeepDive, conforme nossa{" "}
+                  {t("firstCheckbox")}
                   <Link
                     href={"https://deepdiveschool.com/privacy"}
                     rel="noopener noreferrer"
                     target="_blank"
                   >
-                    <span className="underline">
-                      Declaração de Privacidade.
-                    </span>
+                    <span className="underline">{t("privacy")}</span>
                   </Link>
                 </Checkbox>
               )}
             />
-            <ErrorMessage>{errors.firstCheckbox?.message}</ErrorMessage>
+            <ErrorMessage>
+              {errors.firstCheckbox?.message && t("acceptTerms")}
+            </ErrorMessage>
 
             <Controller
               control={control}
@@ -193,19 +221,19 @@ export default function BeATeacher() {
                   {...field}
                   value={String(field.value)}
                 >
-                  Sim, aceito receber comunicações de marketing sobre produtos,
-                  serviços e eventos, podendo me descadastrar a qualquer
-                  momento.
+                  {t("secondCheckbox")}
                 </Checkbox>
               )}
             />
-            <ErrorMessage>{errors.secondCheckbox?.message}</ErrorMessage>
+            <ErrorMessage>
+              {errors.secondCheckbox?.message && t("requiredField")}
+            </ErrorMessage>
           </div>
           <Button
             onClick={handleSubmit(onSubmit)}
             className="mt-8 max-w-[133px]"
           >
-            Cadastrar
+            {t("registerButton")}
           </Button>
         </Form.Root>
       </main>

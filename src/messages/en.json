@@ -69,5 +69,25 @@
   "WhoWeAreSection": {
     "title": "Who We Are",
     "text": "We were born in Brazil, with the mission to empower leaders to communicate confidently and independently in English, and to train confident global professionals who will build valuable connections worldwide."
+  },
+  "BeATeacherPage": {
+    "title1": "Become a part of the Deepdive team of teachers and",
+    "title2": "contribute to the training of global leaders.",
+    "formTitle": "Submit your information to our database:",
+    "formName": "Full name",
+    "formEmail": "Email address",
+    "formPhone": "Phone",
+    "formState": "State",
+    "formCity": "City",
+    "formExperienceTime": "Years of Experience",
+    "formAlreadyLivedAbroad": "Have you lived abroad?",
+    "formCertifications": "Certifications",
+    "firstCheckbox": "By signing up, you agree to the processing of your personal data by Deepdive as specified in our ",
+    "privacy": "privacy statement.",
+    "secondCheckbox": "Yes, I accept receiving marketing communications about products, services, and events, and I can unsubscribe at any given time.",
+    "registerButton": "Submit",
+    "requiredField": "Required field",
+    "acceptTerms": "You must accept the terms and conditions",
+    "invalidEmail": "Invalid email"
   }
 }
