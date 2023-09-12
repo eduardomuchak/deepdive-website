@@ -40,7 +40,7 @@ function Footer() {
             <li>
               <Link
                 className="font-sans text-sm font-normal transition-all hover:opacity-80"
-                href={"/becomeateacher"}
+                href={"/refund"}
               >
                 {t("refund")}
               </Link>
@@ -134,7 +134,7 @@ function Footer() {
           <li>
             <Link
               className="font-sans text-sm font-normal transition-all hover:opacity-80"
-              href={"/becomeateacher"}
+              href={"/refund"}
             >
               {t("refund")}
             </Link>
