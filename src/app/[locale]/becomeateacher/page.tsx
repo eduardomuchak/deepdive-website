@@ -47,7 +47,7 @@ export default function BecomeATeacher() {
       <main className="relative mx-auto w-full max-w-[726px] px-2">
         <div className="mb-[60px] mt-[152px] text-center">
           <span className="text-center font-alt text-[36px] font-normal leading-[52px] text-white md:text-[40px]">
-            {t("title1")}
+            {t("title1")}{" "}
           </span>
           <strong className="text-center font-alt text-[40px] leading-[52px] text-white">
             {t("title2")}
