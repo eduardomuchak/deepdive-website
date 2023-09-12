@@ -8,6 +8,9 @@
     "refund": "Company Reimbursement",
     "benefits": "Benefits for Corporate Groups"
   },
+  "ScheduleClass": {
+    "button": "Schedule Experimental Class"
+  },
   "CTASection": {
     "welcome": "The evolution of English",
     "welcomeStrong": "for global professionals",

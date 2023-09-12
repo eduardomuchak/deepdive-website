@@ -8,6 +8,9 @@
     "refund": "Reembolso pela empresa",
     "benefits": "Benefícios para grupos empresariais"
   },
+  "ScheduleClass": {
+    "button": "Agendar aula experimental"
+  },
   "CTASection": {
     "welcome": "A evolução do inglês",
     "welcomeStrong": "para profissionais globais",
