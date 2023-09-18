@@ -33,7 +33,7 @@
     "internationalExperiencesText": "Participate in immersive experiences in some of the world's leading business events, upgrading your English skills and gaining valuable insights for your business."
   },
   "WhyChooseDeepdiveSection": {
-    "whyDeepdive": "Por que escolher a Deepdive?",
+    "whyDeepdive": "Why choose Deepdive?",
     "title1": "Simulations of real scenarios",
     "text1": "Increase your team's performance in areas that involve conversational practice, saving valuable resources and time.",
     "title2": "Accurate diagnoses",
@@ -74,6 +74,16 @@
     "function3": "Practice that fits into your routine",
     "function4": "Customized content to reach your goals",
     "function5": "Progress reports with tips for improvement"
+  },
+  "NewHomeOrangeCard": {
+    "title": "Excellence in Simulations of Real Scenarios with AI",
+    "text": "Explore the Deepdive Platform:",
+    "textItemName1": "Dive Manager:",
+    "textItemContent1": "Create personalized training programs with role-plays, completely tailored to your company's unique needs.",
+    "textItemName2": "Characters:",
+    "textItemContent2": "Develop characters that represent your customers, with distinct avatars and personalities.",
+    "textItemName3": "Diagnosis:",
+    "textItemContent3": "Configure parameters and weights for automated analysis of user performance in conversational simulations."
   },
   "GlobalTrendsSection": {
     "text": "We take you to the world's leading global trends events.",

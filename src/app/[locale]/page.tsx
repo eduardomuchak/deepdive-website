@@ -1,9 +1,8 @@
 "use client";
 import { FoundersSection } from "@/components/FoundersSection";
-import { GlobalTrendsSection } from "@/components/GlobalTrendsSection";
-import { HomeOrangeCard } from "@/components/HomeOrangeCard";
 import { HowToApplySection } from "@/components/HowToApplySection";
 import { NewCTASection } from "@/components/NewCTASection";
+import { NewHomeOrangeCard } from "@/components/NewHomeOrangeCard";
 import { WhoWeAreSection } from "@/components/WhoWeAreSection";
 import { WhyChooseDeepdiveSection } from "@/components/WhyChooseDeepdiveSection";
 import Background from "./background";
@@ -17,8 +16,9 @@ export default function Home() {
         <WhyChooseDeepdiveSection />
         {/* <JourneySection /> */}
         <HowToApplySection />
-        <HomeOrangeCard />
-        <GlobalTrendsSection />
+        {/* <HomeOrangeCard /> */}
+        <NewHomeOrangeCard />
+        {/* <GlobalTrendsSection /> */}
         {/* <SpecialistsTeamSection /> */}
         <FoundersSection />
         <WhoWeAreSection />

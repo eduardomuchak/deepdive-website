@@ -75,6 +75,16 @@
     "function4": "Conteúdo personalizado para o seu objetivo",
     "function5": "Report com dicas para sua evolução"
   },
+  "NewHomeOrangeCard": {
+    "title": "Excelência em Simulações de Cenários Reais com IA",
+    "text": "Explore a Plataforma Deepdive:",
+    "textItemName1": "Dive Manager:",
+    "textItemContent1": "Crie programas de treinamento personalizados com role-plays, totalmente adaptados às necessidades exclusivas da sua empresa.",
+    "textItemName2": "Personagens:",
+    "textItemContent2": "Desenvolva personagens que representem seus clientes, com avatares e personalidades distintas.",
+    "textItemName3": "Diagnóstico:",
+    "textItemContent3": "Configure parâmetros e pesos para obter uma análise automatizada do desempenho do usuário em simulações de conversação."
+  },
   "GlobalTrendsSection": {
     "text": "Levamos você para os principais eventos de tendências globais no mundo.",
     "whyChoose1": "Viagens exclusivas para líderes Deepdive",
