@@ -6,7 +6,8 @@
   "Footer": {
     "beATeacher": "Seja professor da Deepdive",
     "refund": "Reembolso pela empresa",
-    "benefits": "Benefícios para grupos empresariais"
+    "benefits": "Benefícios para grupos empresariais",
+    "talkToUs": "Fale com um consultor"
   },
   "ScheduleClass": {
     "button": "Agendar aula experimental"
@@ -21,7 +22,15 @@
     "welcome": "Alcance a excelência em",
     "welcomeStrong": "prática conversacional",
     "speak": "Simule cenários reais usando inteligência artificial",
-    "try": "Testar Agora Gratuitamente"
+    "try": "Testar Agora Gratuitamente",
+    "card1Title": "RECRUTAMENTO",
+    "card1Text": "Use nossa IA para entrevistas interativas e escolha candidatos com mais confiança",
+    "card2Title": "VENDAS",
+    "card2Text": "Revolucione o treinamento da sua equipe de vendas com simulações de clientes em role-plays",
+    "card3Title": "EDUCAÇÃO",
+    "card3Text": "Tenha uma assistente de ensino para praticar e avaliar o seu aprendizado continuamente",
+    "card4Title": "PERSONALIZAÇÃO",
+    "card4Text": "Personalize de acordo com as necessidades da sua empresa"
   },
   "WhyChooseDeepdiveSectionOLD": {
     "whyDeepdive": "Por que escolher a Deepdive?",

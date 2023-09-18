@@ -6,10 +6,10 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "./globals.css";
 
-import Footer from "@/components/Footer";
 import { Header } from "@/components/Header";
+import NewFooter from "@/components/NewFooter";
 import { ScheduleClassButton } from "@/components/ScheduleClassButton";
-import { Raleway, Roboto } from "next/font/google";
+import { Barlow, Raleway, Roboto } from "next/font/google";
 
 const raleway = Raleway({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
@@ -25,6 +25,14 @@ const roboto = Roboto({
   subsets: ["latin"],
   display: "auto",
   variable: "--font-roboto",
+});
+
+const barlow = Barlow({
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+  style: ["normal"],
+  subsets: ["latin"],
+  display: "auto",
+  variable: "--font-barlow",
 });
 
 export const metadata: Metadata = {
@@ -48,12 +56,13 @@ export default async function RootLayout({
   return (
     <html lang={locale}>
       <body
-        className={`${raleway.variable} ${roboto.variable} flex w-full flex-1 flex-col bg-brand-primary-blue text-white`}
+        className={`${raleway.variable} ${roboto.variable} ${barlow.variable} flex w-full flex-1 flex-col bg-brand-primary-blue text-white`}
       >
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Header />
           {children}
-          <Footer />
+          {/* <Footer /> */}
+          <NewFooter />
           <ScheduleClassButton />
         </NextIntlClientProvider>
       </body>

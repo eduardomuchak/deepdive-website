@@ -11,6 +11,7 @@ const config: Config = {
       fontFamily: {
         sans: "var(--font-roboto)",
         alt: "var(--font-raleway)",
+        barlow: "var(--font-barlow)",
       },
       colors: {
         "brand-primary-blue": "#151f27",

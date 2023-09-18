@@ -1,23 +1,44 @@
-import CintiaImage from "@/assets/images/specialists/CintiaNogueira.png";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 
-export function RoleCard() {
+interface RoleCard {
+  id: number;
+  title: string;
+  description: string;
+  image: StaticImageData;
+  icon: StaticImageData;
+  color: string;
+}
+
+interface RoleCardProps {
+  info: RoleCard;
+}
+
+export function RoleCard({ info }: RoleCardProps) {
   return (
-    <div className="flex h-fit w-full max-w-[180px] flex-col items-center justify-start space-y-4 rounded-xl bg-[#ffa365] p-5">
+    <div
+      style={{
+        backgroundColor: info.color,
+      }}
+      className={`relative flex w-[263px] scale-75 flex-col items-center justify-start overflow-hidden rounded-xl px-6 py-[30px]`}
+    >
       <Image
-        src={CintiaImage}
-        alt="Person image"
-        className="aspect-square w-[100px]"
+        src={info.icon}
+        alt="Icon image"
+        className="absolute left-0 top-0 min-h-[64px] select-none"
       />
-      <div className="flex flex-col space-y-2">
-        <span className="text-center font-sans text-sm font-semibold">
-          RECRUTAMENTO
-        </span>
-        <span className="text-center font-sans text-sm font-medium leading-relaxed tracking-tight">
-          Use nossa IA para entrevistas interativas e escolha candidatos com
-          mais confiança
-        </span>
-      </div>
+
+      <Image
+        src={info.image}
+        alt="Person image"
+        className="mb-[14px] aspect-square w-[156px]"
+      />
+
+      <span className="font-barlow mb-6 text-center text-2xl font-medium tracking-wider">
+        {info.title}
+      </span>
+      <span className="text-center font-sans text-base font-normal leading-normal tracking-wider">
+        {info.description}
+      </span>
     </div>
   );
 }
