@@ -4,6 +4,7 @@ import { Popover, Transition } from "@headlessui/react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import Link from "next/link";
+
 import { X } from "phosphor-react";
 import { Fragment, useState } from "react";
 import deepdiveLogoSVG from "../../assets/brand/deepdive-logo-white.svg";

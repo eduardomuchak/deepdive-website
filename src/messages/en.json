@@ -22,7 +22,15 @@
     "welcome": "Achieve excellence in",
     "welcomeStrong": "conversational practice",
     "speak": "Simulate real projects using artificial intelligence",
-    "try": "Try Now for Free"
+    "try": "Try Now for Free",
+    "card1Title": "RECRUITMENT",
+    "card1Text": "Use our AI for interactive interviews and choose candidates with more confidence",
+    "card2Title": "SALES",
+    "card2Text": "Revolutionize your sales team training with role-play customer simulations",
+    "card3Title": "EDUCATION",
+    "card3Text": "Have a teaching assistant to continually practice and assess your learning",
+    "card4Title": "CUSTOMIZATION",
+    "card4Text": "Customize according to your company's needs"
   },
   "WhyChooseDeepdiveSectionOLD": {
     "whyDeepdive": "Why choose Deepdive?",
