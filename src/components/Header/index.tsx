@@ -4,7 +4,8 @@ import { Popover, Transition } from "@headlessui/react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import Link from "next/link";
-import { List, X } from "phosphor-react";
+
+import { X } from "phosphor-react";
 import { Fragment, useState } from "react";
 import deepdiveLogoSVG from "../../assets/brand/deepdive-logo-white.svg";
 import { Button } from "../_Primitives/Button";
@@ -33,7 +34,7 @@ export function Header() {
             </Link>
           </div>
 
-          <Popover.Button
+          {/* <Popover.Button
             id="menu-button"
             className="-my-2 -mr-2 flex items-center rounded-xl border-none bg-brand-primary-blue px-2 py-2 transition-all focus:outline-none focus:ring-2 focus:ring-brand-orange focus:ring-offset-0 lg:hidden"
             onMouseEnter={() => setIsIconHovering(true)}
@@ -49,14 +50,14 @@ export function Header() {
               weight="bold"
               aria-hidden="true"
             />
-          </Popover.Button>
+          </Popover.Button> */}
 
           <nav className="hidden items-center space-x-10 lg:flex">
-            <Link href={"/refund"}>
+            {/* <Link href={"/refund"}>
               <span className="font-sans text-sm font-medium transition-all hover:opacity-80">
                 {t("benefit")}
               </span>
-            </Link>
+            </Link> */}
             <Link
               rel="noopener noreferrer"
               href={"https://deepdiveschool.rds.land/diagnostico"}

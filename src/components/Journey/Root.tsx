@@ -4,7 +4,7 @@ interface Props {
 
 export function JourneyRoot({ children }: Props) {
   return (
-    <div className="flex w-fit max-w-[182px] flex-col items-center">
+    <div className="flex w-fit max-w-[220px] flex-col items-center">
       {children}
     </div>
   );

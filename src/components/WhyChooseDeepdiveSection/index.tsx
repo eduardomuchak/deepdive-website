@@ -10,18 +10,18 @@ export function WhyChooseDeepdiveSection() {
   const whyChooseDeepdive = [
     {
       id: 1,
-      title: `${t("personalizedLearningTitle")}`,
-      content: `${t("personalizedLearningText")}`,
+      title: `${t("title1")}`,
+      content: `${t("text1")}`,
     },
     {
       id: 2,
-      title: `${t("globalNetworkingTitle")}`,
-      content: `${t("globalNetworkingText")}`,
+      title: `${t("title2")}`,
+      content: `${t("text2")}`,
     },
     {
       id: 3,
-      title: `${t("internationalExperiencesTitle")}`,
-      content: `${t("internationalExperiencesText")}`,
+      title: `${t("title3")}`,
+      content: `${t("text3")}`,
     },
   ];
   return (

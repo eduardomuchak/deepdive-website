@@ -6,7 +6,8 @@
   "Footer": {
     "beATeacher": "Become a DeepDive Instructor",
     "refund": "Company Reimbursement",
-    "benefits": "Benefits for Corporate Groups"
+    "benefits": "Benefits for Corporate Groups",
+    "talkToUs": "Talk to a consultant"
   },
   "ScheduleClass": {
     "button": "Schedule Experimental Class"
@@ -17,7 +18,21 @@
     "speak": "Speak English with confidence and unlock your professional potential.",
     "try": "Try Now for Free"
   },
-  "WhyChooseDeepdiveSection": {
+  "NewCTASection": {
+    "welcome": "Achieve excellence in",
+    "welcomeStrong": "conversational practice",
+    "speak": "Simulate real projects using artificial intelligence",
+    "try": "Try Now for Free",
+    "card1Title": "RECRUITMENT",
+    "card1Text": "Use our AI for interactive interviews and choose candidates with more confidence",
+    "card2Title": "SALES",
+    "card2Text": "Revolutionize your sales team training with role-play customer simulations",
+    "card3Title": "EDUCATION",
+    "card3Text": "Have a teaching assistant to continually practice and assess your learning",
+    "card4Title": "CUSTOMIZATION",
+    "card4Text": "Customize according to your company's needs"
+  },
+  "WhyChooseDeepdiveSectionOLD": {
     "whyDeepdive": "Why choose Deepdive?",
     "personalizedLearningTitle": "Personalized learning",
     "personalizedLearningText": "Achieve your goals quickly and consistently with customized programs designed just for you.",
@@ -25,6 +40,15 @@
     "globalNetworkingText": "Become part of an exclusive community of fully proficient top-level leaders. Expand your international network and build meaningful connections.",
     "internationalExperiencesTitle": "International experiences",
     "internationalExperiencesText": "Participate in immersive experiences in some of the world's leading business events, upgrading your English skills and gaining valuable insights for your business."
+  },
+  "WhyChooseDeepdiveSection": {
+    "whyDeepdive": "Why choose Deepdive?",
+    "title1": "Simulations of real scenarios",
+    "text1": "Increase your team's performance in areas that involve conversational practice, saving valuable resources and time.",
+    "title2": "Accurate diagnoses",
+    "text2": "We provide detailed analysis of each conversational session, allowing you to make decisions based on actual performance achieved.",
+    "title3": "Customizable for any business",
+    "text3": "Create characters with the personalities of your real customers and simulate everyday situations in your business."
   },
   "JourneySection": {
     "yourJourneyAtDeepdive": "Your journey at Deepdive",
@@ -39,7 +63,17 @@
     "GlobalExperiencesTitle": "Global Experiences",
     "GlobalExperiencesText": "Language immersion in international business events"
   },
-
+  "HowToApplySection": {
+    "title": "How to apply in your company",
+    "itemTitle1": "Smart Recruiting",
+    "itemText1": "Interactive interviews and candidate selection with confidence.",
+    "itemTitle2": "Sales Training",
+    "itemText2": "Customer simulations in negotiation scenarios.",
+    "itemTitle3": "Leadership Training",
+    "itemText3": "Simulations in feedback scenarios and project presentations.",
+    "itemTitle4": "Enhanced Education",
+    "itemText4": "Practice and assessment of learning with identification of knowledge gaps."
+  },
   "HomeOrangeCard": {
     "technology": "Cutting-edge technology to achieve your goal",
     "technologyText1": "Would you like to practice speaking English every day, without fear, using customized content tailored to your objectives?",
@@ -49,6 +83,16 @@
     "function3": "Practice that fits into your routine",
     "function4": "Customized content to reach your goals",
     "function5": "Progress reports with tips for improvement"
+  },
+  "NewHomeOrangeCard": {
+    "title": "Excellence in Simulations of Real Scenarios with AI",
+    "text": "Explore the Deepdive Platform:",
+    "textItemName1": "Dive Manager:",
+    "textItemContent1": "Create personalized training programs with role-plays, completely tailored to your company's unique needs.",
+    "textItemName2": "Characters:",
+    "textItemContent2": "Develop characters that represent your customers, with distinct avatars and personalities.",
+    "textItemName3": "Diagnosis:",
+    "textItemContent3": "Configure parameters and weights for automated analysis of user performance in conversational simulations."
   },
   "GlobalTrendsSection": {
     "text": "We take you to the world's leading global trends events.",
@@ -68,6 +112,14 @@
     "team": "Team of Experts",
     "text": "At Deepdive, we have a team of highly trained and qualified professionals. We value not only their academic background but also their proven practical experience, communication skills, experiences abroad, and passion for teaching.",
     "meet": "Meet Our Team:"
+  },
+  "FoundersSection": {
+    "title": "Fundadores",
+    "founder1Description": "Co-founder & CEO of Codenation, acquired by Trybe in 2020",
+    "founder2Description": "Masters in International Marketing & ex-Marketing at Henry Schein & Guga Kuerten Group",
+    "founder3Description": "Product Director at Docplanner & Stanford Executive Program",
+    "founder4Description": "Computer Scientist, 15+ years of experience former Lead Developer at Calendly",
+    "founder5Description": "Master in AI & Robotics at the University of Rome & worked for the American market for years"
   },
   "WhoWeAreSection": {
     "title": "Who We Are",

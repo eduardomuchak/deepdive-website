@@ -6,7 +6,8 @@
   "Footer": {
     "beATeacher": "Seja professor da Deepdive",
     "refund": "Reembolso pela empresa",
-    "benefits": "Benefícios para grupos empresariais"
+    "benefits": "Benefícios para grupos empresariais",
+    "talkToUs": "Fale com um consultor"
   },
   "ScheduleClass": {
     "button": "Agendar aula experimental"
@@ -17,7 +18,21 @@
     "speak": "Fale inglês com segurança e desbloqueie sua potência profissional.",
     "try": "Testar Agora Gratuitamente"
   },
-  "WhyChooseDeepdiveSection": {
+  "NewCTASection": {
+    "welcome": "Alcance a excelência em",
+    "welcomeStrong": "prática conversacional",
+    "speak": "Simule cenários reais usando inteligência artificial",
+    "try": "Testar Agora Gratuitamente",
+    "card1Title": "RECRUTAMENTO",
+    "card1Text": "Use nossa IA para entrevistas interativas e escolha candidatos com mais confiança",
+    "card2Title": "VENDAS",
+    "card2Text": "Revolucione o treinamento da sua equipe de vendas com simulações de clientes em role-plays",
+    "card3Title": "EDUCAÇÃO",
+    "card3Text": "Tenha uma assistente de ensino para praticar e avaliar o seu aprendizado continuamente",
+    "card4Title": "PERSONALIZAÇÃO",
+    "card4Text": "Personalize de acordo com as necessidades da sua empresa"
+  },
+  "WhyChooseDeepdiveSectionOLD": {
     "whyDeepdive": "Por que escolher a Deepdive?",
     "personalizedLearningTitle": "Aprendizado personalizado",
     "personalizedLearningText": "Chegue no seu objetivo de forma rápida, mas sem perder a consistência com programas personalizados para você.",
@@ -25,6 +40,15 @@
     "globalNetworkingText": "Faça parte de uma comunidade exclusiva de líderes de alto nível fluentes em inglês. Amplie sua rede internacional e crie conexões significativas.",
     "internationalExperiencesTitle": "Experiências internacionais",
     "internationalExperiencesText": "Participe de imersões nos principais eventos de negócios do mundo, enquanto aprimora seu inglês e ganha insights para seu negócio."
+  },
+  "WhyChooseDeepdiveSection": {
+    "whyDeepdive": "Por que escolher a Deepdive?",
+    "title1": "Simulações de cenários reais",
+    "text1": "Aumente a performance do seu time em áreas que envolvem a prática conversacional, economizando recursos e tempo valiosos.",
+    "title2": "Diagnósticos precisos",
+    "text2": "Fornecemos análises detalhadas de cada sessão conversacional, permitindo que você tome decisões com base no desempenho real atingido.",
+    "title3": "Customizável para qualquer negócio",
+    "text3": "Crie personagens com personalidades dos seus clientes reais e simule situações cotidianas do seu negócio."
   },
   "JourneySection": {
     "yourJourneyAtDeepdive": "Sua jornada na Deepdive",
@@ -39,7 +63,17 @@
     "GlobalExperiencesTitle": "Experiência Global",
     "GlobalExperiencesText": "Imersão em eventos internacionais de negócios"
   },
-
+  "HowToApplySection": {
+    "title": "Como aplicar na sua empresa",
+    "itemTitle1": "Recrutamento inteligente",
+    "itemText1": "Entrevistas interativas e seleção de candidatos com confiança.",
+    "itemTitle2": "Treinamento de Vendas",
+    "itemText2": "Simulações de clientes em cenários de negociação.",
+    "itemTitle3": "Treinamento de Lideranças",
+    "itemText3": "Simulações em cenários de feedbacks e apresentações de projetos.",
+    "itemTitle4": "Educação Aprimorada",
+    "itemText4": "Prática e avaliação de aprendizado com identificação de lacunas de conhecimento."
+  },
   "HomeOrangeCard": {
     "technology": "Tecnologia de ponta para alcançar seu objetivo",
     "technologyText1": "Já pensou em praticar conversação em inglês diariamente, sem medo e com conteúdo 100% direcionado ao seu objetivo?",
@@ -49,6 +83,16 @@
     "function3": "Práticas que cabem na sua rotina",
     "function4": "Conteúdo personalizado para o seu objetivo",
     "function5": "Report com dicas para sua evolução"
+  },
+  "NewHomeOrangeCard": {
+    "title": "Excelência em Simulações de Cenários Reais com IA",
+    "text": "Explore a Plataforma Deepdive:",
+    "textItemName1": "Dive Manager:",
+    "textItemContent1": "Crie programas de treinamento personalizados com role-plays, totalmente adaptados às necessidades exclusivas da sua empresa.",
+    "textItemName2": "Personagens:",
+    "textItemContent2": "Desenvolva personagens que representem seus clientes, com avatares e personalidades distintas.",
+    "textItemName3": "Diagnóstico:",
+    "textItemContent3": "Configure parâmetros e pesos para obter uma análise automatizada do desempenho do usuário em simulações de conversação."
   },
   "GlobalTrendsSection": {
     "text": "Levamos você para os principais eventos de tendências globais no mundo.",
@@ -68,6 +112,14 @@
     "team": "Time de Especialistas",
     "text": "Na Deepdive, contamos com uma equipe altamente treinada e qualificada. Valorizamos não apenas sua formação acadêmica, mas também sua experiência prática, habilidades de comunicação, vicência internacional e paixão pelo ensino.",
     "meet": "Conheça nossa Equipe:"
+  },
+  "FoundersSection": {
+    "title": "Fundadores",
+    "founder1Description": "Co-founder & CEO da Codenation, adquirida pela Trybe in 2020",
+    "founder2Description": "Mestrado em Marketing Internacional & ex-Marketing na Henry Schein & Grupo Guga Kuerten",
+    "founder3Description": "Product Director na Docplanner & Stanford Executive Program",
+    "founder4Description": "Cientista da Computação, 15+ anos de experiência ex-Principal Developer at Calendly",
+    "founder5Description": "Mestrado em AI & Robótica na Universidade de Roma & trabalhou anos para o mercado americano"
   },
   "WhoWeAreSection": {
     "title": "Quem somos",
