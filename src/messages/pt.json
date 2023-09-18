@@ -23,7 +23,7 @@
     "speak": "Simule cenários reais usando inteligência artificial",
     "try": "Testar Agora Gratuitamente"
   },
-  "WhyChooseDeepdiveSection": {
+  "WhyChooseDeepdiveSectionOLD": {
     "whyDeepdive": "Por que escolher a Deepdive?",
     "personalizedLearningTitle": "Aprendizado personalizado",
     "personalizedLearningText": "Chegue no seu objetivo de forma rápida, mas sem perder a consistência com programas personalizados para você.",
@@ -31,6 +31,15 @@
     "globalNetworkingText": "Faça parte de uma comunidade exclusiva de líderes de alto nível fluentes em inglês. Amplie sua rede internacional e crie conexões significativas.",
     "internationalExperiencesTitle": "Experiências internacionais",
     "internationalExperiencesText": "Participe de imersões nos principais eventos de negócios do mundo, enquanto aprimora seu inglês e ganha insights para seu negócio."
+  },
+  "WhyChooseDeepdiveSection": {
+    "whyDeepdive": "Por que escolher a Deepdive?",
+    "title1": "Simulações de cenários reais",
+    "text1": "Aumente a performance do seu time em áreas que envolvem a prática conversacional, economizando recursos e tempo valiosos.",
+    "title2": "Diagnósticos precisos",
+    "text2": "Fornecemos análises detalhadas de cada sessão conversacional, permitindo que você tome decisões com base no desempenho real atingido.",
+    "title3": "Customizável para qualquer negócio",
+    "text3": "Crie personagens com personalidades dos seus clientes reais e simule situações cotidianas do seu negócio."
   },
   "JourneySection": {
     "yourJourneyAtDeepdive": "Sua jornada na Deepdive",
@@ -45,7 +54,17 @@
     "GlobalExperiencesTitle": "Experiência Global",
     "GlobalExperiencesText": "Imersão em eventos internacionais de negócios"
   },
-
+  "HowToApplySection": {
+    "title": "Como aplicar na sua empresa",
+    "itemTitle1": "Recrutamento inteligente",
+    "itemText1": "Entrevistas interativas e seleção de candidatos com confiança.",
+    "itemTitle2": "Treinamento de Vendas",
+    "itemText2": "Simulações de clientes em cenários de negociação.",
+    "itemTitle3": "Treinamento de Lideranças",
+    "itemText3": "Simulações em cenários de feedbacks e apresentações de projetos.",
+    "itemTitle4": "Educação Aprimorada",
+    "itemText4": "Prática e avaliação de aprendizado com identificação de lacunas de conhecimento."
+  },
   "HomeOrangeCard": {
     "technology": "Tecnologia de ponta para alcançar seu objetivo",
     "technologyText1": "Já pensou em praticar conversação em inglês diariamente, sem medo e com conteúdo 100% direcionado ao seu objetivo?",

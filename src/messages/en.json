@@ -23,7 +23,7 @@
     "speak": "Simulate real projects using artificial intelligence",
     "try": "Try Now for Free"
   },
-  "WhyChooseDeepdiveSection": {
+  "WhyChooseDeepdiveSectionOLD": {
     "whyDeepdive": "Why choose Deepdive?",
     "personalizedLearningTitle": "Personalized learning",
     "personalizedLearningText": "Achieve your goals quickly and consistently with customized programs designed just for you.",
@@ -31,6 +31,15 @@
     "globalNetworkingText": "Become part of an exclusive community of fully proficient top-level leaders. Expand your international network and build meaningful connections.",
     "internationalExperiencesTitle": "International experiences",
     "internationalExperiencesText": "Participate in immersive experiences in some of the world's leading business events, upgrading your English skills and gaining valuable insights for your business."
+  },
+  "WhyChooseDeepdiveSection": {
+    "whyDeepdive": "Por que escolher a Deepdive?",
+    "title1": "Simulations of real scenarios",
+    "text1": "Increase your team's performance in areas that involve conversational practice, saving valuable resources and time.",
+    "title2": "Accurate diagnoses",
+    "text2": "We provide detailed analysis of each conversational session, allowing you to make decisions based on actual performance achieved.",
+    "title3": "Customizable for any business",
+    "text3": "Create characters with the personalities of your real customers and simulate everyday situations in your business."
   },
   "JourneySection": {
     "yourJourneyAtDeepdive": "Your journey at Deepdive",
@@ -45,7 +54,17 @@
     "GlobalExperiencesTitle": "Global Experiences",
     "GlobalExperiencesText": "Language immersion in international business events"
   },
-
+  "HowToApplySection": {
+    "title": "How to apply in your company",
+    "itemTitle1": "Smart Recruiting",
+    "itemText1": "Interactive interviews and candidate selection with confidence.",
+    "itemTitle2": "Sales Training",
+    "itemText2": "Customer simulations in negotiation scenarios.",
+    "itemTitle3": "Leadership Training",
+    "itemText3": "Simulations in feedback scenarios and project presentations.",
+    "itemTitle4": "Enhanced Education",
+    "itemText4": "Practice and assessment of learning with identification of knowledge gaps."
+  },
   "HomeOrangeCard": {
     "technology": "Cutting-edge technology to achieve your goal",
     "technologyText1": "Would you like to practice speaking English every day, without fear, using customized content tailored to your objectives?",
