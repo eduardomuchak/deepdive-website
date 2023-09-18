@@ -31,7 +31,7 @@ export function SpecialistsCarousel({ info }: SpecialistsCarouselProps) {
 
   return (
     <div className="relative mx-auto flex min-h-[346px] w-full flex-row items-center justify-center">
-      {isSmartphone && (
+      {/* {isSmartphone && (
         <Image
           src={Circles}
           alt={`Circles around slide`}
@@ -44,7 +44,7 @@ export function SpecialistsCarousel({ info }: SpecialistsCarouselProps) {
           alt={`Circles around slide`}
           className={"absolute top-0 z-0 w-[347px] select-none"}
         />
-      )}
+      )} */}
       <Swiper
         effect={"creative"}
         grabCursor={true}
@@ -83,6 +83,15 @@ export function SpecialistsCarousel({ info }: SpecialistsCarouselProps) {
                       "mt-20 block aspect-square w-[230px] rounded-full grayscale md:mt-12"
                     }
                   />
+                  {isActive && (
+                    <Image
+                      src={Circles}
+                      alt={`Circles around slide`}
+                      className={
+                        "absolute bottom-0 top-6 z-0 min-w-[336px] select-none md:top-0"
+                      }
+                    />
+                  )}
                   {item.certification &&
                     item.certification === "Delta Certified" && (
                       <Image
