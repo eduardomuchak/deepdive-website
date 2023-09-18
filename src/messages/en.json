@@ -17,6 +17,12 @@
     "speak": "Speak English with confidence and unlock your professional potential.",
     "try": "Try Now for Free"
   },
+  "NewCTASection": {
+    "welcome": "Achieve excellence in",
+    "welcomeStrong": "conversational practice",
+    "speak": "Simulate real projects using artificial intelligence",
+    "try": "Try Now for Free"
+  },
   "WhyChooseDeepdiveSection": {
     "whyDeepdive": "Why choose Deepdive?",
     "personalizedLearningTitle": "Personalized learning",
@@ -68,6 +74,14 @@
     "team": "Team of Experts",
     "text": "At Deepdive, we have a team of highly trained and qualified professionals. We value not only their academic background but also their proven practical experience, communication skills, experiences abroad, and passion for teaching.",
     "meet": "Meet Our Team:"
+  },
+  "FoundersSection": {
+    "title": "Fundadores",
+    "founder1Description": "Co-founder & CEO of Codenation, acquired by Trybe in 2020",
+    "founder2Description": "Masters in International Marketing & ex-Marketing at Henry Schein & Guga Kuerten Group",
+    "founder3Description": "Product Director at Docplanner & Stanford Executive Program",
+    "founder4Description": "Computer Scientist, 15+ years of experience former Lead Developer at Calendly",
+    "founder5Description": "Master in AI & Robotics at the University of Rome & worked for the American market for years"
   },
   "WhoWeAreSection": {
     "title": "Who We Are",
