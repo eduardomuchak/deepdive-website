@@ -1,4 +1,4 @@
-import SecondaryHomeImage from "@/assets/images/Group 486.png";
+import SecondaryHomeImage from "@/assets/images/home.png";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { Check } from "phosphor-react";

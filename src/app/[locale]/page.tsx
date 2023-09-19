@@ -3,7 +3,6 @@ import { FoundersSection } from "@/components/FoundersSection";
 import { HowToApplySection } from "@/components/HowToApplySection";
 import { NewCTASection } from "@/components/NewCTASection";
 import { NewHomeOrangeCard } from "@/components/NewHomeOrangeCard";
-import { RoleSection } from "@/components/RoleSection";
 import { WhoWeAreSection } from "@/components/WhoWeAreSection";
 import { WhyChooseDeepdiveSection } from "@/components/WhyChooseDeepdiveSection";
 import Background from "./background";
@@ -15,7 +14,7 @@ export default function Home() {
         {/* <CTASection /> */}
         <NewCTASection />
         <WhyChooseDeepdiveSection />
-        <RoleSection />
+        {/* <RoleSection /> */}
         {/* <JourneySection /> */}
         <HowToApplySection />
         {/* <HomeOrangeCard /> */}
