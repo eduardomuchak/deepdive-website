@@ -42,7 +42,7 @@ export function HowToApplySection() {
         <h1 className="z-10 mb-10 text-center font-alt text-[32px] font-bold tracking-tight">
           {t("title")}
         </h1>
-        <div className="z-10 flex w-full flex-col items-center justify-between md:flex-row md:items-start">
+        <div className="z-10 flex w-full flex-col items-center justify-between lg:flex-row lg:items-start">
           {journey.map((item) => (
             <Journey.Root key={item.id}>
               <Journey.Image image={item.image} />
