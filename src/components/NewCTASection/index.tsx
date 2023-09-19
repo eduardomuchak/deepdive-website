@@ -1,6 +1,6 @@
 "use client";
 
-import HomeImage from "@/assets/images/home.png";
+import HomeImage from "@/assets/images/Group 514.png";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import Link from "next/link";
@@ -11,7 +11,7 @@ export function NewCTASection() {
 
   return (
     <div className="mx-auto mt-8 flex max-w-6xl flex-col justify-between px-4 md:mt-[60px] md:flex-row md:px-5">
-      <div className="flex w-full max-w-[417px] flex-col">
+      <div className="flex w-full max-w-[417px] flex-col justify-center">
         <h1 className="mb-6 font-alt text-[45px] leading-tight tracking-tight md:mb-10 md:text-[40px]">
           {t("welcome")} <strong>{t("welcomeStrong")}</strong>
         </h1>
