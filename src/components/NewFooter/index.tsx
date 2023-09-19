@@ -27,7 +27,9 @@ function NewFooter() {
             <li>
               <Link
                 className="font-sans text-sm font-normal transition-all hover:opacity-80"
-                href={"/becomeateacher"}
+                href={"https://wa.me/message/BODFB27WWRR5H1"}
+                rel="noopener noreferrer"
+                target="_blank"
               >
                 {t("talkToUs")}
               </Link>
@@ -82,7 +84,9 @@ function NewFooter() {
           <li>
             <Link
               className="font-sans text-sm font-normal transition-all hover:opacity-80"
-              href={"/becomeateacher"}
+              href={"https://wa.me/message/BODFB27WWRR5H1"}
+              rel="noopener noreferrer"
+              target="_blank"
             >
               {t("talkToUs")}
             </Link>
