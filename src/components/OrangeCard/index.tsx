@@ -31,7 +31,7 @@ export function OrangeCard() {
         </span>
         <Link
           rel="noopener noreferrer"
-          href={"https://deepdiveschool.rds.land/diagnostico"}
+          href={"http://app.deepdivetech.ai"}
           target="_blank"
           className="hidden w-fit md:block"
         >

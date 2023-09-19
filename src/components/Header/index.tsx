@@ -60,7 +60,7 @@ export function Header() {
             </Link> */}
             <Link
               rel="noopener noreferrer"
-              href={"https://deepdiveschool.rds.land/diagnostico"}
+              href={"http://app.deepdivetech.ai"}
               target="_blank"
             >
               <Button className="rounded-lg">{t("try")}</Button>
@@ -115,7 +115,7 @@ export function Header() {
             </div>
             {/* <Link
               rel="noopener noreferrer"
-              href={"https://deepdiveschool.rds.land/diagnostico"}
+              href={"http://app.deepdivetech.ai"}
               target="_blank"
               className="mx-auto flex flex-grow items-start justify-center"
             >

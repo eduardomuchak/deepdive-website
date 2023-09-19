@@ -10,7 +10,7 @@ export function ScheduleClassButton() {
     <div className="sticky bottom-0 left-0 z-50 flex h-[84px] items-center justify-center bg-brand-primary-blue sm:hidden">
       <Link
         rel="noopener noreferrer"
-        href={"https://deepdiveschool.rds.land/diagnostico"}
+        href={"http://app.deepdivetech.ai"}
         target="_blank"
       >
         <Button className="max-w-[250px]">{t("button")}</Button>

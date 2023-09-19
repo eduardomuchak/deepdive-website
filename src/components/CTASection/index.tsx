@@ -20,7 +20,7 @@ export function CTASection() {
         </span>
         <Link
           rel="noopener noreferrer"
-          href={"https://deepdiveschool.rds.land/diagnostico"}
+          href={"http://app.deepdivetech.ai"}
           target="_blank"
           className="z-10 hidden w-fit md:block"
         >
