@@ -18,7 +18,6 @@ export function FoundersSection() {
       role: "Co-founder & CEO",
       description: `${t("founder1Description")}`,
     },
-
     {
       id: 2,
       image: Fernanda,
@@ -46,6 +45,55 @@ export function FoundersSection() {
       name: "Daniel Blank",
       role: "Co-founder & Platform",
       description: `${t("founder4Description")}`,
+    },
+    {
+      id: 6,
+      image: Gustavo,
+      name: "Gustavo Comitre",
+      role: "Co-founder & CPO",
+      description: `${t("founder3Description")}`,
+    },
+    {
+      id: 7,
+      image: Eduardo,
+      name: "Eduardo Varela",
+      role: "Co-founder & CEO",
+      description: `${t("founder1Description")}`,
+    },
+    {
+      id: 8,
+      image: Fernanda,
+      name: "Fernanda Zen",
+      role: "Co-founder & COO",
+      description: `${t("founder2Description")}`,
+    },
+    {
+      id: 9,
+      image: Gustavo,
+      name: "Gustavo Comitre",
+      role: "Co-founder & CPO",
+      description: `${t("founder3Description")}`,
+    },
+    {
+      id: 10,
+      image: Ibis,
+      name: "Ibis Prevedello",
+      role: "Co-founder & AI",
+      description: `${t("founder5Description")}`,
+    },
+    {
+      id: 11,
+      image: Daniel,
+      name: "Daniel Blank",
+      role: "Co-founder & Platform",
+      description: `${t("founder4Description")}`,
+    },
+    {
+      id: 12,
+      image: Gustavo,
+      name: "Gustavo Comitre",
+      role: "Co-founder & CPO",
+      description: `${t("founder3Description")}`,
     },
   ];
 
