@@ -1,7 +1,7 @@
 {
   "Header": {
     "try": "Testar Agora Gratuitamente",
-    "benefit": "Benefício pela empresa"
+    "talkToUs": "Fale com um consultor"
   },
   "Footer": {
     "beATeacher": "Seja professor da Deepdive",
@@ -10,7 +10,7 @@
     "talkToUs": "Fale com um consultor"
   },
   "ScheduleClass": {
-    "button": "Agendar aula experimental"
+    "button": "Testar Agora Gratuitamente"
   },
   "CTASection": {
     "welcome": "A evolução do inglês",

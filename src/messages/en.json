@@ -1,7 +1,7 @@
 {
   "Header": {
     "try": "Try Now for Free",
-    "benefit": "Benefit by the company"
+    "talkToUs": "Talk to a consultant"
   },
   "Footer": {
     "beATeacher": "Become a DeepDive Instructor",
@@ -10,7 +10,7 @@
     "talkToUs": "Talk to a consultant"
   },
   "ScheduleClass": {
-    "button": "Schedule Experimental Class"
+    "button": "Try Now for Free"
   },
   "CTASection": {
     "welcome": "The evolution of English",

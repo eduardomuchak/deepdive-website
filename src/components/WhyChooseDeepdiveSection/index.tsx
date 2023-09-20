@@ -1,4 +1,4 @@
-import SecondaryHomeImage from "@/assets/images/home.png";
+import SecondaryHomeImage from "@/assets/images/pexels-tima-miroshnichenko-5717641(2) 1.png";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { Check } from "phosphor-react";

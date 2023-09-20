@@ -63,7 +63,7 @@ export function NewHomeOrangeCard() {
         <Image
           src={SmartphoneImage}
           alt="Smartphone Deepdive"
-          className="z-0 h-[309px] w-[193px] select-none self-center bg-cover md:h-[406px] md:w-[254px] md:self-end"
+          className="z-0 w-[193px] select-none self-center bg-cover md:w-[254px] md:self-end"
         />
       </div>
     </div>
