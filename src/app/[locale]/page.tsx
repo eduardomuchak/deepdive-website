@@ -1,5 +1,4 @@
 "use client";
-import { FoundersSection } from "@/components/FoundersSection";
 import { HowToApplySection } from "@/components/HowToApplySection";
 import { NewCTASection } from "@/components/NewCTASection";
 import { NewHomeOrangeCard } from "@/components/NewHomeOrangeCard";
@@ -21,7 +20,7 @@ export default function Home() {
         <NewHomeOrangeCard />
         {/* <GlobalTrendsSection /> */}
         {/* <SpecialistsTeamSection /> */}
-        <FoundersSection />
+        {/* <FoundersSection /> */}
         <WhoWeAreSection />
       </main>
       <Background />

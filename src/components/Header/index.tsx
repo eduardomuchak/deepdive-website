@@ -1,7 +1,7 @@
 "use client";
 
 import { Popover, Transition } from "@headlessui/react";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -10,10 +10,22 @@ import { Fragment, useState } from "react";
 import deepdiveLogoSVG from "../../assets/brand/deepdive-logo-white.svg";
 import { Button } from "../_Primitives/Button";
 
+import { Switch } from "@/components/ui/switch";
+import { useRouter } from "next/navigation";
+
 export function Header() {
   const t = useTranslations("Header");
-
+  const router = useRouter();
   const [isIconHovering, setIsIconHovering] = useState(false);
+  const locale = useLocale();
+
+  const handleChangeLanguage = () => {
+    if (locale === "pt") {
+      router.push("en");
+    } else if (locale === "en") {
+      router.push("pt");
+    }
+  };
 
   return (
     <Popover
@@ -36,7 +48,7 @@ export function Header() {
 
           <Popover.Button
             id="menu-button"
-            className="-my-2 -mr-2 flex items-center rounded-xl border-none bg-brand-primary-blue px-2 py-2 transition-all focus:outline-none focus:ring-2 focus:ring-brand-orange focus:ring-offset-0 lg:hidden"
+            className="bg-brand-primaryya-blue -my-2 -mr-2 flex items-center rounded-xl border-none px-2 py-2 transition-all focus:outline-none focus:ring-2 focus:ring-brand-orange focus:ring-offset-0 lg:hidden"
             onMouseEnter={() => setIsIconHovering(true)}
             onMouseLeave={() => setIsIconHovering(false)}
           >
@@ -69,6 +81,10 @@ export function Header() {
             >
               <Button className="rounded-lg">{t("try")}</Button>
             </Link>
+            <Switch
+              checked={locale === "pt" ? true : false}
+              onCheckedChange={handleChangeLanguage}
+            />
           </nav>
         </div>
       </header>
