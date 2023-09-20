@@ -5,6 +5,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "./globals.css";
+import "/node_modules/flag-icons/css/flag-icons.min.css";
 
 import { Header } from "@/components/Header";
 import NewFooter from "@/components/NewFooter";

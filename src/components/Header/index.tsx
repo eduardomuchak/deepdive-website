@@ -1,7 +1,7 @@
 "use client";
 
 import { Popover, Transition } from "@headlessui/react";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -10,10 +10,22 @@ import { Fragment, useState } from "react";
 import deepdiveLogoSVG from "../../assets/brand/deepdive-logo-white.svg";
 import { Button } from "../_Primitives/Button";
 
+import { Switch } from "@/components/ui/switch";
+import { useRouter } from "next/navigation";
+
 export function Header() {
   const t = useTranslations("Header");
-
+  const router = useRouter();
   const [isIconHovering, setIsIconHovering] = useState(false);
+  const locale = useLocale();
+
+  const handleChangeLanguage = () => {
+    if (locale === "pt") {
+      router.push("en");
+    } else if (locale === "en") {
+      router.push("pt");
+    }
+  };
 
   return (
     <Popover
@@ -53,6 +65,10 @@ export function Header() {
           </Popover.Button>
 
           <nav className="hidden items-center space-x-10 lg:flex">
+            <Switch
+              checked={locale === "pt" ? true : false}
+              onCheckedChange={handleChangeLanguage}
+            />
             <Link
               href={"https://wa.me/message/BODFB27WWRR5H1"}
               rel="noopener noreferrer"
