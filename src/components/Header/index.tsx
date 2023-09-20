@@ -65,10 +65,6 @@ export function Header() {
           </Popover.Button>
 
           <nav className="hidden items-center space-x-10 lg:flex">
-            <Switch
-              checked={locale === "pt" ? true : false}
-              onCheckedChange={handleChangeLanguage}
-            />
             <Link
               href={"https://wa.me/message/BODFB27WWRR5H1"}
               rel="noopener noreferrer"
@@ -85,6 +81,10 @@ export function Header() {
             >
               <Button className="rounded-lg">{t("try")}</Button>
             </Link>
+            <Switch
+              checked={locale === "pt" ? true : false}
+              onCheckedChange={handleChangeLanguage}
+            />
           </nav>
         </div>
       </header>
